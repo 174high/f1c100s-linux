@@ -1,0 +1,7 @@
+
+toolchain:
+
+arm-eabi-
+
+https://releases.linaro.org/components/toolchain/binaries/5.3-2016.05/arm-eabi/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi.tar.xz
+
