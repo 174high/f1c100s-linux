@@ -1,0 +1,10 @@
+build/machine/sys-mmu.o: machine/sys-mmu.c \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h \
+ machine/include/io.h machine/include/core_types.h \
+ machine/include/sizes.h arch/arm32/include/arm32.h
+machine/sys-mmu.c :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h :
+ machine/include/io.h machine/include/core_types.h :
+ machine/include/sizes.h arch/arm32/include/arm32.h :

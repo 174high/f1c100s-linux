@@ -1,0 +1,1698 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN	arch/arm32/include/linkage.h	8;"	d
+ALIGN	tools/mksunxi/mksunxi.c	34;"	d	file:
+ALIGN_SIZE	lib/malloc.c	/^	ALIGN_SIZE = (1 << ALIGN_SIZE_LOG2),$/;"	e	enum:tlsf_private	file:
+ALIGN_SIZE_LOG2	lib/malloc.c	/^	ALIGN_SIZE_LOG2 = 3,$/;"	e	enum:tlsf_private	file:
+ALIGN_STR	arch/arm32/include/linkage.h	9;"	d
+ARM_CPU_PART_CORTEX_A15	arch/arm32/lib/cpu/cmd-cpuinfo.c	22;"	d	file:
+ARM_CPU_PART_CORTEX_A5	arch/arm32/lib/cpu/cmd-cpuinfo.c	18;"	d	file:
+ARM_CPU_PART_CORTEX_A7	arch/arm32/lib/cpu/cmd-cpuinfo.c	19;"	d	file:
+ARM_CPU_PART_CORTEX_A8	arch/arm32/lib/cpu/cmd-cpuinfo.c	20;"	d	file:
+ARM_CPU_PART_CORTEX_A9	arch/arm32/lib/cpu/cmd-cpuinfo.c	21;"	d	file:
+ARRAY_SIZE	include/sizes.h	36;"	d
+ARRAY_SIZE	machine/include/sizes.h	36;"	d
+AS	Makefile	/^AS	          = $(CROSS_COMPILE)gcc -x assembler-with-cpp$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS		:= -g -ggdb -Wall -O3 -ffreestanding -std=gnu99 $(DEFINES)$/;"	m
+BIG_ENDIAN	arch/arm32/include/endian.h	9;"	d
+BLOCK_SIZE	tools/mksunxi/mksunxi.c	39;"	d	file:
+BOOT_DEVICE_FEL	machine/sys-copyself.c	/^	BOOT_DEVICE_FEL	= 0,$/;"	e	enum:__anon7	file:
+BOOT_DEVICE_MMC	machine/sys-copyself.c	/^	BOOT_DEVICE_MMC	= 2,$/;"	e	enum:__anon7	file:
+BOOT_DEVICE_SPI	machine/sys-copyself.c	/^	BOOT_DEVICE_SPI	= 1,$/;"	e	enum:__anon7	file:
+BRANCH_SPEC_DMB	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_DMB				= 0x7E,$/;"	e	enum:__anon2
+BRANCH_SPEC_DSB	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_DSB				= 0x7D,$/;"	e	enum:__anon2
+BRANCH_SPEC_IMMEDIATE	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_IMMEDIATE		= 0x78,$/;"	e	enum:__anon2
+BRANCH_SPEC_INDIRECT	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_INDIRECT		= 0x7A,$/;"	e	enum:__anon2
+BRANCH_SPEC_ISB	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_ISB				= 0x7C,$/;"	e	enum:__anon2
+BRANCH_SPEC_PROCEDURE	arch/arm32/include/pmu.h	/^	BRANCH_SPEC_PROCEDURE		= 0x79,$/;"	e	enum:__anon2
+BUILD	Makefile	/^BUILD ?= build$/;"	m
+BUS_ACCESS	arch/arm32/include/pmu.h	/^	BUS_ACCESS					= 0x19,$/;"	e	enum:__anon2
+BUS_ACCESS_ANORM	arch/arm32/include/pmu.h	/^	BUS_ACCESS_ANORM			= 0x63,$/;"	e	enum:__anon2
+BUS_ACCESS_LD	arch/arm32/include/pmu.h	/^	BUS_ACCESS_LD				= 0x60,$/;"	e	enum:__anon2
+BUS_ACCESS_NORM	arch/arm32/include/pmu.h	/^	BUS_ACCESS_NORM				= 0x62,$/;"	e	enum:__anon2
+BUS_ACCESS_NORM2	arch/arm32/include/pmu.h	/^	BUS_ACCESS_NORM2			= 0x64,$/;"	e	enum:__anon2
+BUS_ACCESS_PERI	arch/arm32/include/pmu.h	/^	BUS_ACCESS_PERI				= 0x65,$/;"	e	enum:__anon2
+BUS_ACCESS_ST	arch/arm32/include/pmu.h	/^	BUS_ACCESS_ST				= 0x61,$/;"	e	enum:__anon2
+BUS_CYCLE	arch/arm32/include/pmu.h	/^	BUS_CYCLE					= 0x1D,$/;"	e	enum:__anon2
+BYTE_ORDER	arch/arm32/include/endian.h	16;"	d
+BYTE_ORDER	arch/arm32/include/endian.h	18;"	d
+CC	Makefile	/^CC	          = $(CROSS_COMPILE)gcc$/;"	m
+CC	tools/mksunxi/Makefile	/^CC = gcc$/;"	m
+CCU_ADDA_CLK	machine/include/f1c100s/reg-ccu.h	34;"	d
+CCU_AHB_APB_CFG	machine/include/f1c100s/reg-ccu.h	13;"	d
+CCU_AVS_CLK	machine/include/f1c100s/reg-ccu.h	35;"	d
+CCU_BUS_CLK_GATE0	machine/include/f1c100s/reg-ccu.h	15;"	d
+CCU_BUS_CLK_GATE1	machine/include/f1c100s/reg-ccu.h	16;"	d
+CCU_BUS_CLK_GATE2	machine/include/f1c100s/reg-ccu.h	17;"	d
+CCU_BUS_SOFT_RST0	machine/include/f1c100s/reg-ccu.h	51;"	d
+CCU_BUS_SOFT_RST1	machine/include/f1c100s/reg-ccu.h	52;"	d
+CCU_BUS_SOFT_RST3	machine/include/f1c100s/reg-ccu.h	53;"	d
+CCU_CPU_CFG	machine/include/f1c100s/reg-ccu.h	12;"	d
+CCU_CSI_CLK	machine/include/f1c100s/reg-ccu.h	32;"	d
+CCU_DAUDIO_CLK	machine/include/f1c100s/reg-ccu.h	21;"	d
+CCU_DEBE_CLK	machine/include/f1c100s/reg-ccu.h	26;"	d
+CCU_DEFE_CLK	machine/include/f1c100s/reg-ccu.h	27;"	d
+CCU_DEINTERLACE_CLK	machine/include/f1c100s/reg-ccu.h	29;"	d
+CCU_DRAM_CLK_GATE	machine/include/f1c100s/reg-ccu.h	25;"	d
+CCU_I2S_CLK	machine/include/f1c100s/reg-ccu.h	23;"	d
+CCU_LCD_CLK	machine/include/f1c100s/reg-ccu.h	28;"	d
+CCU_PLL_AUDIO_BIAS	machine/include/f1c100s/reg-ccu.h	40;"	d
+CCU_PLL_AUDIO_CTRL	machine/include/f1c100s/reg-ccu.h	7;"	d
+CCU_PLL_AUDIO_PAT	machine/include/f1c100s/reg-ccu.h	47;"	d
+CCU_PLL_CPU_BIAS	machine/include/f1c100s/reg-ccu.h	39;"	d
+CCU_PLL_CPU_CTRL	machine/include/f1c100s/reg-ccu.h	6;"	d
+CCU_PLL_CPU_TUN	machine/include/f1c100s/reg-ccu.h	45;"	d
+CCU_PLL_DDR0_BIAS	machine/include/f1c100s/reg-ccu.h	43;"	d
+CCU_PLL_DDR0_PAT	machine/include/f1c100s/reg-ccu.h	49;"	d
+CCU_PLL_DDR_CTRL	machine/include/f1c100s/reg-ccu.h	10;"	d
+CCU_PLL_DDR_TUN	machine/include/f1c100s/reg-ccu.h	46;"	d
+CCU_PLL_PERIPH_BIAS	machine/include/f1c100s/reg-ccu.h	44;"	d
+CCU_PLL_PERIPH_CTRL	machine/include/f1c100s/reg-ccu.h	11;"	d
+CCU_PLL_STABLE_TIME0	machine/include/f1c100s/reg-ccu.h	37;"	d
+CCU_PLL_STABLE_TIME1	machine/include/f1c100s/reg-ccu.h	38;"	d
+CCU_PLL_VE_BIAS	machine/include/f1c100s/reg-ccu.h	42;"	d
+CCU_PLL_VE_CTRL	machine/include/f1c100s/reg-ccu.h	9;"	d
+CCU_PLL_VIDEO_BIAS	machine/include/f1c100s/reg-ccu.h	41;"	d
+CCU_PLL_VIDEO_CTRL	machine/include/f1c100s/reg-ccu.h	8;"	d
+CCU_PLL_VIDEO_PAT	machine/include/f1c100s/reg-ccu.h	48;"	d
+CCU_SDMMC0_CLK	machine/include/f1c100s/reg-ccu.h	19;"	d
+CCU_SDMMC1_CLK	machine/include/f1c100s/reg-ccu.h	20;"	d
+CCU_SPDIF_CLK	machine/include/f1c100s/reg-ccu.h	22;"	d
+CCU_TVD_CLK	machine/include/f1c100s/reg-ccu.h	31;"	d
+CCU_TVE_CLK	machine/include/f1c100s/reg-ccu.h	30;"	d
+CCU_USBPHY_CFG	machine/include/f1c100s/reg-ccu.h	24;"	d
+CCU_VE_CLK	machine/include/f1c100s/reg-ccu.h	33;"	d
+CFLAGS	Makefile	/^CFLAGS		:= -g -ggdb -Wall -O3 -ffreestanding -std=gnu99 $(DEFINES)$/;"	m
+CFLAGS	tools/mksunxi/Makefile	/^CFLAGS = -Wall -Wextra -O2$/;"	m
+CHAN0_ALRDY_HOLD_IRQ	driver/key-f1c100s-lradc.c	56;"	d	file:
+CHAN0_DATA_IRQ	driver/key-f1c100s-lradc.c	59;"	d	file:
+CHAN0_HOLD_IRQ	driver/key-f1c100s-lradc.c	57;"	d	file:
+CHAN0_KEYDOWN_IRQ	driver/key-f1c100s-lradc.c	58;"	d	file:
+CHAN0_KEYUP_IRQ	driver/key-f1c100s-lradc.c	55;"	d	file:
+CHAN1_ALRDY_HOLD_IRQ	driver/key-f1c100s-lradc.c	51;"	d	file:
+CHAN1_DATA_IRQ	driver/key-f1c100s-lradc.c	54;"	d	file:
+CHAN1_HOLD_IRQ	driver/key-f1c100s-lradc.c	52;"	d	file:
+CHAN1_KEYDOWN_IRQ	driver/key-f1c100s-lradc.c	53;"	d	file:
+CHAN1_KEYUP_IRQ	driver/key-f1c100s-lradc.c	50;"	d	file:
+CHAN_SELECT	driver/key-f1c100s-lradc.c	40;"	d	file:
+CHAR_BIT	arch/arm32/include/limits.h	9;"	d
+CHAR_MAX	arch/arm32/include/limits.h	17;"	d
+CHAR_MIN	arch/arm32/include/limits.h	16;"	d
+CONTEXTID	arch/arm32/include/pmu.h	/^	CONTEXTID					= 0x0B,$/;"	e	enum:__anon2
+CONTINUE_TIME_SEL	driver/key-f1c100s-lradc.c	41;"	d	file:
+CP	Makefile	/^CP = cp$/;"	m
+CPU_ARCH_ARMv3	arch/arm32/lib/cpu/cmd-cpuinfo.c	8;"	d	file:
+CPU_ARCH_ARMv4	arch/arm32/lib/cpu/cmd-cpuinfo.c	9;"	d	file:
+CPU_ARCH_ARMv4T	arch/arm32/lib/cpu/cmd-cpuinfo.c	10;"	d	file:
+CPU_ARCH_ARMv5	arch/arm32/lib/cpu/cmd-cpuinfo.c	11;"	d	file:
+CPU_ARCH_ARMv5T	arch/arm32/lib/cpu/cmd-cpuinfo.c	12;"	d	file:
+CPU_ARCH_ARMv5TE	arch/arm32/lib/cpu/cmd-cpuinfo.c	13;"	d	file:
+CPU_ARCH_ARMv5TEJ	arch/arm32/lib/cpu/cmd-cpuinfo.c	14;"	d	file:
+CPU_ARCH_ARMv6	arch/arm32/lib/cpu/cmd-cpuinfo.c	15;"	d	file:
+CPU_ARCH_ARMv7	arch/arm32/lib/cpu/cmd-cpuinfo.c	16;"	d	file:
+CPU_ARCH_UNKNOWN	arch/arm32/lib/cpu/cmd-cpuinfo.c	7;"	d	file:
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = ..\/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi\/bin\/arm-eabi-$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS	:= -g -ggdb -Wall -O3 -ffreestanding -std=gnu99 $(DEFINES)$/;"	m
+CYCLE	arch/arm32/include/pmu.h	/^	CYCLE						= 0x11,$/;"	e	enum:__anon2
+D2DCACHE_ACCESS_LD	arch/arm32/include/pmu.h	/^	D2DCACHE_ACCESS_LD			= 0x50,$/;"	e	enum:__anon2
+D2DCACHE_ACCESS_ST	arch/arm32/include/pmu.h	/^	D2DCACHE_ACCESS_ST			= 0x51,$/;"	e	enum:__anon2
+DATA_MEM_ACCESS	arch/arm32/include/pmu.h	/^	DATA_MEM_ACCESS				= 0x13,$/;"	e	enum:__anon2
+DATA_MEM_ACCESS_LD	arch/arm32/include/pmu.h	/^	DATA_MEM_ACCESS_LD			= 0x66,$/;"	e	enum:__anon2
+DATA_MEM_ACCESS_ST	arch/arm32/include/pmu.h	/^	DATA_MEM_ACCESS_ST			= 0x67,$/;"	e	enum:__anon2
+DATA_SNOOPED	arch/arm32/include/pmu.h	/^	DATA_SNOOPED				= 0xCA,$/;"	e	enum:__anon2
+DBL_DECIMAL_DIG	arch/arm32/include/float.h	36;"	d
+DBL_DIG	arch/arm32/include/float.h	35;"	d
+DBL_EPSILON	arch/arm32/include/float.h	28;"	d
+DBL_HAS_SUBNORM	arch/arm32/include/float.h	33;"	d
+DBL_MANT_DIG	arch/arm32/include/float.h	30;"	d
+DBL_MAX	arch/arm32/include/float.h	27;"	d
+DBL_MAX_10_EXP	arch/arm32/include/float.h	38;"	d
+DBL_MAX_EXP	arch/arm32/include/float.h	32;"	d
+DBL_MIN	arch/arm32/include/float.h	26;"	d
+DBL_MIN_10_EXP	arch/arm32/include/float.h	37;"	d
+DBL_MIN_EXP	arch/arm32/include/float.h	31;"	d
+DBL_TRUE_MIN	arch/arm32/include/float.h	25;"	d
+DECIMAL_DIG	arch/arm32/include/float.h	59;"	d
+DMA_BIDIRECTIONAL	lib/dma.h	/^	DMA_BIDIRECTIONAL	= 0,$/;"	e	enum:__anon1
+DMA_FROM_DEVICE	lib/dma.h	/^	DMA_FROM_DEVICE		= 2,$/;"	e	enum:__anon1
+DMA_TO_DEVICE	lib/dma.h	/^	DMA_TO_DEVICE		= 1,$/;"	e	enum:__anon1
+DRAM_ASPR	machine/include/f1c100s/reg-dram.h	21;"	d
+DRAM_BWCR	machine/include/f1c100s/reg-dram.h	37;"	d
+DRAM_DADRR	machine/include/f1c100s/reg-dram.h	13;"	d
+DRAM_DDLYR	machine/include/f1c100s/reg-dram.h	12;"	d
+DRAM_DRPTR0	machine/include/f1c100s/reg-dram.h	15;"	d
+DRAM_DRPTR1	machine/include/f1c100s/reg-dram.h	16;"	d
+DRAM_DRPTR2	machine/include/f1c100s/reg-dram.h	17;"	d
+DRAM_DRPTR3	machine/include/f1c100s/reg-dram.h	18;"	d
+DRAM_DVALR	machine/include/f1c100s/reg-dram.h	14;"	d
+DRAM_MAE	machine/include/f1c100s/reg-dram.h	20;"	d
+DRAM_MCR0	machine/include/f1c100s/reg-dram.h	25;"	d
+DRAM_MCR1	machine/include/f1c100s/reg-dram.h	26;"	d
+DRAM_MCR10	machine/include/f1c100s/reg-dram.h	35;"	d
+DRAM_MCR11	machine/include/f1c100s/reg-dram.h	36;"	d
+DRAM_MCR2	machine/include/f1c100s/reg-dram.h	27;"	d
+DRAM_MCR3	machine/include/f1c100s/reg-dram.h	28;"	d
+DRAM_MCR4	machine/include/f1c100s/reg-dram.h	29;"	d
+DRAM_MCR5	machine/include/f1c100s/reg-dram.h	30;"	d
+DRAM_MCR6	machine/include/f1c100s/reg-dram.h	31;"	d
+DRAM_MCR7	machine/include/f1c100s/reg-dram.h	32;"	d
+DRAM_MCR8	machine/include/f1c100s/reg-dram.h	33;"	d
+DRAM_MCR9	machine/include/f1c100s/reg-dram.h	34;"	d
+DRAM_SCONR	machine/include/f1c100s/reg-dram.h	6;"	d
+DRAM_SCTLR	machine/include/f1c100s/reg-dram.h	9;"	d
+DRAM_SDLY0	machine/include/f1c100s/reg-dram.h	22;"	d
+DRAM_SDLY1	machine/include/f1c100s/reg-dram.h	23;"	d
+DRAM_SDLY2	machine/include/f1c100s/reg-dram.h	24;"	d
+DRAM_SEFR	machine/include/f1c100s/reg-dram.h	19;"	d
+DRAM_SEXTMR	machine/include/f1c100s/reg-dram.h	11;"	d
+DRAM_SREFR	machine/include/f1c100s/reg-dram.h	10;"	d
+DRAM_STMG0R	machine/include/f1c100s/reg-dram.h	7;"	d
+DRAM_STMG1R	machine/include/f1c100s/reg-dram.h	8;"	d
+DRAM_TYPE_DDR	machine/sys-dram.c	/^	DRAM_TYPE_DDR	= 1,$/;"	e	enum:dram_type_t	file:
+DRAM_TYPE_MDDR	machine/sys-dram.c	/^	DRAM_TYPE_MDDR	= 2,$/;"	e	enum:dram_type_t	file:
+DRAM_TYPE_SDR	machine/sys-dram.c	/^	DRAM_TYPE_SDR	= 0,$/;"	e	enum:dram_type_t	file:
+ECHO	Makefile	/^ECHO = @echo$/;"	m
+ENABLE	driver/key-f1c100s-lradc.c	47;"	d	file:
+END	arch/arm32/include/linkage.h	20;"	d
+ENDPROC	arch/arm32/include/linkage.h	23;"	d
+ENTRY	arch/arm32/include/linkage.h	11;"	d
+ETM_EXT_OUT0	arch/arm32/include/pmu.h	/^	ETM_EXT_OUT0				= 0xC7,$/;"	e	enum:__anon2
+ETM_EXT_OUT1	arch/arm32/include/pmu.h	/^	ETM_EXT_OUT1				= 0xC8,$/;"	e	enum:__anon2
+EXCEPTION	arch/arm32/include/pmu.h	/^	EXCEPTION					= 0x09,$/;"	e	enum:__anon2
+EXCEPTION_RETURN	arch/arm32/include/pmu.h	/^	EXCEPTION_RETURN			= 0x0A,$/;"	e	enum:__anon2
+EXPORT_SYMBOL	lib/module.h	29;"	d
+EXTERN_MEM_REQ	arch/arm32/include/pmu.h	/^	EXTERN_MEM_REQ				= 0xC0,$/;"	e	enum:__anon2
+F1C100S_CCU_BASE	machine/include/f1c100s/reg-ccu.h	4;"	d
+F1C100S_DEBE_BASE	machine/include/f1c100s/reg-debe.h	6;"	d
+F1C100S_DEFE_BASE	machine/include/f1c100s/reg-defe.h	6;"	d
+F1C100S_DRAM_BASE	machine/include/f1c100s/reg-dram.h	4;"	d
+F1C100S_GPIOA0	machine/include/f1c100s-gpio.h	8;"	d
+F1C100S_GPIOA1	machine/include/f1c100s-gpio.h	9;"	d
+F1C100S_GPIOA2	machine/include/f1c100s-gpio.h	10;"	d
+F1C100S_GPIOA3	machine/include/f1c100s-gpio.h	11;"	d
+F1C100S_GPIOC0	machine/include/f1c100s-gpio.h	13;"	d
+F1C100S_GPIOC1	machine/include/f1c100s-gpio.h	14;"	d
+F1C100S_GPIOC2	machine/include/f1c100s-gpio.h	15;"	d
+F1C100S_GPIOC3	machine/include/f1c100s-gpio.h	16;"	d
+F1C100S_GPIOD0	machine/include/f1c100s-gpio.h	18;"	d
+F1C100S_GPIOD1	machine/include/f1c100s-gpio.h	19;"	d
+F1C100S_GPIOD10	machine/include/f1c100s-gpio.h	28;"	d
+F1C100S_GPIOD11	machine/include/f1c100s-gpio.h	29;"	d
+F1C100S_GPIOD12	machine/include/f1c100s-gpio.h	30;"	d
+F1C100S_GPIOD13	machine/include/f1c100s-gpio.h	31;"	d
+F1C100S_GPIOD14	machine/include/f1c100s-gpio.h	32;"	d
+F1C100S_GPIOD15	machine/include/f1c100s-gpio.h	33;"	d
+F1C100S_GPIOD16	machine/include/f1c100s-gpio.h	34;"	d
+F1C100S_GPIOD17	machine/include/f1c100s-gpio.h	35;"	d
+F1C100S_GPIOD18	machine/include/f1c100s-gpio.h	36;"	d
+F1C100S_GPIOD19	machine/include/f1c100s-gpio.h	37;"	d
+F1C100S_GPIOD2	machine/include/f1c100s-gpio.h	20;"	d
+F1C100S_GPIOD20	machine/include/f1c100s-gpio.h	38;"	d
+F1C100S_GPIOD21	machine/include/f1c100s-gpio.h	39;"	d
+F1C100S_GPIOD3	machine/include/f1c100s-gpio.h	21;"	d
+F1C100S_GPIOD4	machine/include/f1c100s-gpio.h	22;"	d
+F1C100S_GPIOD5	machine/include/f1c100s-gpio.h	23;"	d
+F1C100S_GPIOD6	machine/include/f1c100s-gpio.h	24;"	d
+F1C100S_GPIOD7	machine/include/f1c100s-gpio.h	25;"	d
+F1C100S_GPIOD8	machine/include/f1c100s-gpio.h	26;"	d
+F1C100S_GPIOD9	machine/include/f1c100s-gpio.h	27;"	d
+F1C100S_GPIOE0	machine/include/f1c100s-gpio.h	41;"	d
+F1C100S_GPIOE1	machine/include/f1c100s-gpio.h	42;"	d
+F1C100S_GPIOE10	machine/include/f1c100s-gpio.h	51;"	d
+F1C100S_GPIOE11	machine/include/f1c100s-gpio.h	52;"	d
+F1C100S_GPIOE12	machine/include/f1c100s-gpio.h	53;"	d
+F1C100S_GPIOE2	machine/include/f1c100s-gpio.h	43;"	d
+F1C100S_GPIOE3	machine/include/f1c100s-gpio.h	44;"	d
+F1C100S_GPIOE4	machine/include/f1c100s-gpio.h	45;"	d
+F1C100S_GPIOE5	machine/include/f1c100s-gpio.h	46;"	d
+F1C100S_GPIOE6	machine/include/f1c100s-gpio.h	47;"	d
+F1C100S_GPIOE7	machine/include/f1c100s-gpio.h	48;"	d
+F1C100S_GPIOE8	machine/include/f1c100s-gpio.h	49;"	d
+F1C100S_GPIOE9	machine/include/f1c100s-gpio.h	50;"	d
+F1C100S_GPIOF0	machine/include/f1c100s-gpio.h	55;"	d
+F1C100S_GPIOF1	machine/include/f1c100s-gpio.h	56;"	d
+F1C100S_GPIOF2	machine/include/f1c100s-gpio.h	57;"	d
+F1C100S_GPIOF3	machine/include/f1c100s-gpio.h	58;"	d
+F1C100S_GPIOF4	machine/include/f1c100s-gpio.h	59;"	d
+F1C100S_GPIOF5	machine/include/f1c100s-gpio.h	60;"	d
+F1C100S_IRQ_AUDIO	machine/include/f1c100s-irq.h	26;"	d
+F1C100S_IRQ_CIR	machine/include/f1c100s-irq.h	13;"	d
+F1C100S_IRQ_CSI	machine/include/f1c100s-irq.h	36;"	d
+F1C100S_IRQ_DEBE	machine/include/f1c100s-irq.h	35;"	d
+F1C100S_IRQ_DEFE	machine/include/f1c100s-irq.h	34;"	d
+F1C100S_IRQ_DEITLA	machine/include/f1c100s-irq.h	37;"	d
+F1C100S_IRQ_DMA	machine/include/f1c100s-irq.h	24;"	d
+F1C100S_IRQ_GPIOD	machine/include/f1c100s-irq.h	40;"	d
+F1C100S_IRQ_GPIOD0	machine/include/f1c100s-irq.h	44;"	d
+F1C100S_IRQ_GPIOD1	machine/include/f1c100s-irq.h	45;"	d
+F1C100S_IRQ_GPIOD10	machine/include/f1c100s-irq.h	54;"	d
+F1C100S_IRQ_GPIOD11	machine/include/f1c100s-irq.h	55;"	d
+F1C100S_IRQ_GPIOD12	machine/include/f1c100s-irq.h	56;"	d
+F1C100S_IRQ_GPIOD13	machine/include/f1c100s-irq.h	57;"	d
+F1C100S_IRQ_GPIOD14	machine/include/f1c100s-irq.h	58;"	d
+F1C100S_IRQ_GPIOD15	machine/include/f1c100s-irq.h	59;"	d
+F1C100S_IRQ_GPIOD17	machine/include/f1c100s-irq.h	60;"	d
+F1C100S_IRQ_GPIOD18	machine/include/f1c100s-irq.h	61;"	d
+F1C100S_IRQ_GPIOD19	machine/include/f1c100s-irq.h	62;"	d
+F1C100S_IRQ_GPIOD2	machine/include/f1c100s-irq.h	46;"	d
+F1C100S_IRQ_GPIOD20	machine/include/f1c100s-irq.h	63;"	d
+F1C100S_IRQ_GPIOD21	machine/include/f1c100s-irq.h	64;"	d
+F1C100S_IRQ_GPIOD3	machine/include/f1c100s-irq.h	47;"	d
+F1C100S_IRQ_GPIOD4	machine/include/f1c100s-irq.h	48;"	d
+F1C100S_IRQ_GPIOD5	machine/include/f1c100s-irq.h	49;"	d
+F1C100S_IRQ_GPIOD6	machine/include/f1c100s-irq.h	50;"	d
+F1C100S_IRQ_GPIOD7	machine/include/f1c100s-irq.h	51;"	d
+F1C100S_IRQ_GPIOD8	machine/include/f1c100s-irq.h	52;"	d
+F1C100S_IRQ_GPIOD9	machine/include/f1c100s-irq.h	53;"	d
+F1C100S_IRQ_GPIOE	machine/include/f1c100s-irq.h	41;"	d
+F1C100S_IRQ_GPIOE0	machine/include/f1c100s-irq.h	66;"	d
+F1C100S_IRQ_GPIOE1	machine/include/f1c100s-irq.h	67;"	d
+F1C100S_IRQ_GPIOE10	machine/include/f1c100s-irq.h	76;"	d
+F1C100S_IRQ_GPIOE11	machine/include/f1c100s-irq.h	77;"	d
+F1C100S_IRQ_GPIOE12	machine/include/f1c100s-irq.h	78;"	d
+F1C100S_IRQ_GPIOE2	machine/include/f1c100s-irq.h	68;"	d
+F1C100S_IRQ_GPIOE3	machine/include/f1c100s-irq.h	69;"	d
+F1C100S_IRQ_GPIOE4	machine/include/f1c100s-irq.h	70;"	d
+F1C100S_IRQ_GPIOE5	machine/include/f1c100s-irq.h	71;"	d
+F1C100S_IRQ_GPIOE6	machine/include/f1c100s-irq.h	72;"	d
+F1C100S_IRQ_GPIOE7	machine/include/f1c100s-irq.h	73;"	d
+F1C100S_IRQ_GPIOE8	machine/include/f1c100s-irq.h	74;"	d
+F1C100S_IRQ_GPIOE9	machine/include/f1c100s-irq.h	75;"	d
+F1C100S_IRQ_GPIOF	machine/include/f1c100s-irq.h	42;"	d
+F1C100S_IRQ_GPIOF0	machine/include/f1c100s-irq.h	80;"	d
+F1C100S_IRQ_GPIOF1	machine/include/f1c100s-irq.h	81;"	d
+F1C100S_IRQ_GPIOF2	machine/include/f1c100s-irq.h	82;"	d
+F1C100S_IRQ_GPIOF3	machine/include/f1c100s-irq.h	83;"	d
+F1C100S_IRQ_GPIOF4	machine/include/f1c100s-irq.h	84;"	d
+F1C100S_IRQ_GPIOF5	machine/include/f1c100s-irq.h	85;"	d
+F1C100S_IRQ_I2C0	machine/include/f1c100s-irq.h	14;"	d
+F1C100S_IRQ_I2C1	machine/include/f1c100s-irq.h	15;"	d
+F1C100S_IRQ_I2C2	machine/include/f1c100s-irq.h	16;"	d
+F1C100S_IRQ_I2S	machine/include/f1c100s-irq.h	39;"	d
+F1C100S_IRQ_LCD	machine/include/f1c100s-irq.h	33;"	d
+F1C100S_IRQ_LRADC	machine/include/f1c100s-irq.h	27;"	d
+F1C100S_IRQ_MMC0	machine/include/f1c100s-irq.h	28;"	d
+F1C100S_IRQ_MMC1	machine/include/f1c100s-irq.h	29;"	d
+F1C100S_IRQ_NMI	machine/include/f1c100s-irq.h	8;"	d
+F1C100S_IRQ_RSB	machine/include/f1c100s-irq.h	23;"	d
+F1C100S_IRQ_SPDIF	machine/include/f1c100s-irq.h	12;"	d
+F1C100S_IRQ_SPI0	machine/include/f1c100s-irq.h	17;"	d
+F1C100S_IRQ_SPI1	machine/include/f1c100s-irq.h	18;"	d
+F1C100S_IRQ_TIMER0	machine/include/f1c100s-irq.h	19;"	d
+F1C100S_IRQ_TIMER1	machine/include/f1c100s-irq.h	20;"	d
+F1C100S_IRQ_TIMER2	machine/include/f1c100s-irq.h	21;"	d
+F1C100S_IRQ_TP	machine/include/f1c100s-irq.h	25;"	d
+F1C100S_IRQ_TVD	machine/include/f1c100s-irq.h	31;"	d
+F1C100S_IRQ_TVE	machine/include/f1c100s-irq.h	32;"	d
+F1C100S_IRQ_UART0	machine/include/f1c100s-irq.h	9;"	d
+F1C100S_IRQ_UART1	machine/include/f1c100s-irq.h	10;"	d
+F1C100S_IRQ_UART2	machine/include/f1c100s-irq.h	11;"	d
+F1C100S_IRQ_USBOTG	machine/include/f1c100s-irq.h	30;"	d
+F1C100S_IRQ_VE	machine/include/f1c100s-irq.h	38;"	d
+F1C100S_IRQ_WDOG	machine/include/f1c100s-irq.h	22;"	d
+F1C100S_RESET_ADDA	machine/include/f1c100s-reset.h	23;"	d
+F1C100S_RESET_CIR	machine/include/f1c100s-reset.h	25;"	d
+F1C100S_RESET_CSI	machine/include/f1c100s-reset.h	18;"	d
+F1C100S_RESET_DAUDIO	machine/include/f1c100s-reset.h	27;"	d
+F1C100S_RESET_DEBE	machine/include/f1c100s-reset.h	21;"	d
+F1C100S_RESET_DEFE	machine/include/f1c100s-reset.h	22;"	d
+F1C100S_RESET_DEINTERLACE	machine/include/f1c100s-reset.h	17;"	d
+F1C100S_RESET_DMA	machine/include/f1c100s-reset.h	8;"	d
+F1C100S_RESET_I2C0	machine/include/f1c100s-reset.h	28;"	d
+F1C100S_RESET_I2C1	machine/include/f1c100s-reset.h	29;"	d
+F1C100S_RESET_I2C2	machine/include/f1c100s-reset.h	30;"	d
+F1C100S_RESET_LCD	machine/include/f1c100s-reset.h	16;"	d
+F1C100S_RESET_RSB	machine/include/f1c100s-reset.h	26;"	d
+F1C100S_RESET_SD0	machine/include/f1c100s-reset.h	9;"	d
+F1C100S_RESET_SD1	machine/include/f1c100s-reset.h	10;"	d
+F1C100S_RESET_SDRAM	machine/include/f1c100s-reset.h	11;"	d
+F1C100S_RESET_SPDIF	machine/include/f1c100s-reset.h	24;"	d
+F1C100S_RESET_SPI0	machine/include/f1c100s-reset.h	12;"	d
+F1C100S_RESET_SPI1	machine/include/f1c100s-reset.h	13;"	d
+F1C100S_RESET_TVD	machine/include/f1c100s-reset.h	19;"	d
+F1C100S_RESET_TVE	machine/include/f1c100s-reset.h	20;"	d
+F1C100S_RESET_UART0	machine/include/f1c100s-reset.h	31;"	d
+F1C100S_RESET_UART1	machine/include/f1c100s-reset.h	32;"	d
+F1C100S_RESET_UART2	machine/include/f1c100s-reset.h	33;"	d
+F1C100S_RESET_USB_OTG	machine/include/f1c100s-reset.h	14;"	d
+F1C100S_RESET_VE	machine/include/f1c100s-reset.h	15;"	d
+F1C100S_TCON_BASE	machine/include/f1c100s/reg-tcon.h	6;"	d
+FIQ_EXCEPTION	arch/arm32/include/pmu.h	/^	FIQ_EXCEPTION				= 0x87,$/;"	e	enum:__anon2
+FIRST_CONVERT_DLY	driver/key-f1c100s-lradc.c	39;"	d	file:
+FLT_DECIMAL_DIG	arch/arm32/include/float.h	21;"	d
+FLT_DIG	arch/arm32/include/float.h	20;"	d
+FLT_EPSILON	arch/arm32/include/float.h	13;"	d
+FLT_EVAL_METHOD	arch/arm32/include/float.h	44;"	d
+FLT_HAS_SUBNORM	arch/arm32/include/float.h	18;"	d
+FLT_MANT_DIG	arch/arm32/include/float.h	15;"	d
+FLT_MAX	arch/arm32/include/float.h	12;"	d
+FLT_MAX_10_EXP	arch/arm32/include/float.h	23;"	d
+FLT_MAX_EXP	arch/arm32/include/float.h	17;"	d
+FLT_MIN	arch/arm32/include/float.h	11;"	d
+FLT_MIN_10_EXP	arch/arm32/include/float.h	22;"	d
+FLT_MIN_EXP	arch/arm32/include/float.h	16;"	d
+FLT_RADIX	arch/arm32/include/float.h	8;"	d
+FLT_TRUE_MIN	arch/arm32/include/float.h	10;"	d
+FL_INDEX_COUNT	lib/malloc.c	/^	FL_INDEX_COUNT = (FL_INDEX_MAX - FL_INDEX_SHIFT + 1),$/;"	e	enum:tlsf_private	file:
+FL_INDEX_MAX	lib/malloc.c	/^	FL_INDEX_MAX = 32,$/;"	e	enum:tlsf_private	file:
+FL_INDEX_SHIFT	lib/malloc.c	/^	FL_INDEX_SHIFT = (SL_INDEX_COUNT_LOG2 + ALIGN_SIZE_LOG2),$/;"	e	enum:tlsf_private	file:
+GPIO_CFG0	driver/gpio-f1c100s.c	/^	GPIO_CFG0	= 0x00,$/;"	e	enum:__anon13	file:
+GPIO_CFG1	driver/gpio-f1c100s.c	/^	GPIO_CFG1	= 0x04,$/;"	e	enum:__anon13	file:
+GPIO_CFG2	driver/gpio-f1c100s.c	/^	GPIO_CFG2	= 0x08,$/;"	e	enum:__anon13	file:
+GPIO_CFG3	driver/gpio-f1c100s.c	/^	GPIO_CFG3	= 0x0c,$/;"	e	enum:__anon13	file:
+GPIO_DAT	driver/gpio-f1c100s.c	/^	GPIO_DAT	= 0x10,$/;"	e	enum:__anon13	file:
+GPIO_DIRECTION_INPUT	driver/include/gpio-f1c100s.h	/^	GPIO_DIRECTION_INPUT	= 0,$/;"	e	enum:__anon24
+GPIO_DIRECTION_OUTPUT	driver/include/gpio-f1c100s.h	/^	GPIO_DIRECTION_OUTPUT	= 1,$/;"	e	enum:__anon24
+GPIO_DRV0	driver/gpio-f1c100s.c	/^	GPIO_DRV0	= 0x14,$/;"	e	enum:__anon13	file:
+GPIO_DRV1	driver/gpio-f1c100s.c	/^	GPIO_DRV1	= 0x18,$/;"	e	enum:__anon13	file:
+GPIO_DRV_STRONG	driver/include/gpio-f1c100s.h	/^	GPIO_DRV_STRONG			= 3,$/;"	e	enum:__anon22
+GPIO_DRV_STRONGER	driver/include/gpio-f1c100s.h	/^	GPIO_DRV_STRONGER		= 2,$/;"	e	enum:__anon22
+GPIO_DRV_WEAK	driver/include/gpio-f1c100s.h	/^	GPIO_DRV_WEAK			= 0,$/;"	e	enum:__anon22
+GPIO_DRV_WEAKER	driver/include/gpio-f1c100s.h	/^	GPIO_DRV_WEAKER			= 1,$/;"	e	enum:__anon22
+GPIO_INT_CFG0	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_CFG0	= 0x00,$/;"	e	enum:__anon10	file:
+GPIO_INT_CFG1	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_CFG1	= 0x04,$/;"	e	enum:__anon10	file:
+GPIO_INT_CFG2	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_CFG2	= 0x08,$/;"	e	enum:__anon10	file:
+GPIO_INT_CFG3	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_CFG3	= 0x0c,$/;"	e	enum:__anon10	file:
+GPIO_INT_CTL	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_CTL	= 0x10,$/;"	e	enum:__anon10	file:
+GPIO_INT_DEB	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_DEB	= 0x18,$/;"	e	enum:__anon10	file:
+GPIO_INT_STA	driver/irq-f1c100s-gpio.c	/^	GPIO_INT_STA	= 0x14,$/;"	e	enum:__anon10	file:
+GPIO_PA	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PA = $/;"	v
+GPIO_PB	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PB = $/;"	v
+GPIO_PC	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PC = $/;"	v
+GPIO_PD	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PD = $/;"	v
+GPIO_PE	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PE = $/;"	v
+GPIO_PF	driver/gpio-f1c100s.c	/^const gpio_port_t GPIO_PF = $/;"	v
+GPIO_PUL0	driver/gpio-f1c100s.c	/^	GPIO_PUL0	= 0x1c,$/;"	e	enum:__anon13	file:
+GPIO_PUL1	driver/gpio-f1c100s.c	/^	GPIO_PUL1	= 0x20,$/;"	e	enum:__anon13	file:
+GPIO_PULL_DOWN	driver/include/gpio-f1c100s.h	/^	GPIO_PULL_DOWN			= 1,$/;"	e	enum:__anon21
+GPIO_PULL_NONE	driver/include/gpio-f1c100s.h	/^	GPIO_PULL_NONE			= 2,$/;"	e	enum:__anon21
+GPIO_PULL_UP	driver/include/gpio-f1c100s.h	/^	GPIO_PULL_UP			= 0,$/;"	e	enum:__anon21
+GPIO_RATE_FAST	driver/include/gpio-f1c100s.h	/^	GPIO_RATE_FAST			= 1,$/;"	e	enum:__anon23
+GPIO_RATE_SLOW	driver/include/gpio-f1c100s.h	/^	GPIO_RATE_SLOW			= 0,$/;"	e	enum:__anon23
+HOLD_EN	driver/key-f1c100s-lradc.c	44;"	d	file:
+I2C_ADDR	driver/i2c-f1c100s.c	/^	I2C_ADDR			= 0x000,$/;"	e	enum:__anon17	file:
+I2C_CCR	driver/i2c-f1c100s.c	/^	I2C_CCR				= 0x014,$/;"	e	enum:__anon17	file:
+I2C_CNTR	driver/i2c-f1c100s.c	/^	I2C_CNTR			= 0x00c,$/;"	e	enum:__anon17	file:
+I2C_DATA	driver/i2c-f1c100s.c	/^	I2C_DATA 			= 0x008,$/;"	e	enum:__anon17	file:
+I2C_EFR	driver/i2c-f1c100s.c	/^	I2C_EFR				= 0x01c,$/;"	e	enum:__anon17	file:
+I2C_LCR	driver/i2c-f1c100s.c	/^	I2C_LCR				= 0x020,$/;"	e	enum:__anon17	file:
+I2C_SRST	driver/i2c-f1c100s.c	/^	I2C_SRST			= 0x018,$/;"	e	enum:__anon17	file:
+I2C_STAT	driver/i2c-f1c100s.c	/^	I2C_STAT			= 0x010,$/;"	e	enum:__anon17	file:
+I2C_STAT_BUS_ERROR	driver/i2c-f1c100s.c	/^	I2C_STAT_BUS_ERROR	= 0x00,$/;"	e	enum:__anon18	file:
+I2C_STAT_IDLE	driver/i2c-f1c100s.c	/^	I2C_STAT_IDLE		= 0xf8,$/;"	e	enum:__anon18	file:
+I2C_STAT_LOST_ARB	driver/i2c-f1c100s.c	/^	I2C_STAT_LOST_ARB	= 0x38,$/;"	e	enum:__anon18	file:
+I2C_STAT_RXD_ACK	driver/i2c-f1c100s.c	/^	I2C_STAT_RXD_ACK	= 0x50,$/;"	e	enum:__anon18	file:
+I2C_STAT_RXD_NAK	driver/i2c-f1c100s.c	/^	I2C_STAT_RXD_NAK	= 0x58,$/;"	e	enum:__anon18	file:
+I2C_STAT_TXD_ACK	driver/i2c-f1c100s.c	/^	I2C_STAT_TXD_ACK	= 0x28,$/;"	e	enum:__anon18	file:
+I2C_STAT_TXD_NAK	driver/i2c-f1c100s.c	/^	I2C_STAT_TXD_NAK	= 0x30,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_AR_ACK	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_AR_ACK	= 0x40,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_AR_NAK	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_AR_NAK	= 0x48,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_AW_ACK	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_AW_ACK	= 0x18,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_AW_NAK	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_AW_NAK	= 0x20,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_RSTART	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_RSTART	= 0x10,$/;"	e	enum:__anon18	file:
+I2C_STAT_TX_START	driver/i2c-f1c100s.c	/^	I2C_STAT_TX_START	= 0x08,$/;"	e	enum:__anon18	file:
+I2C_XADDR	driver/i2c-f1c100s.c	/^	I2C_XADDR			= 0x004,$/;"	e	enum:__anon17	file:
+IMMEDIATE_BRANCH	arch/arm32/include/pmu.h	/^	IMMEDIATE_BRANCH			= 0x0D,$/;"	e	enum:__anon2
+INCDIRS	Makefile	/^INCDIRS		:= -Imachine\/include -Iarch\/arm32\/include$/;"	m
+INSN_SPEC_INT	arch/arm32/include/pmu.h	/^	INSN_SPEC_INT				= 0x73,$/;"	e	enum:__anon2
+INSN_SPEC_LD	arch/arm32/include/pmu.h	/^	INSN_SPEC_LD				= 0x70,$/;"	e	enum:__anon2
+INSN_SPEC_LD_ST	arch/arm32/include/pmu.h	/^	INSN_SPEC_LD_ST				= 0x72,$/;"	e	enum:__anon2
+INSN_SPEC_SIMD	arch/arm32/include/pmu.h	/^	INSN_SPEC_SIMD				= 0x74,$/;"	e	enum:__anon2
+INSN_SPEC_SOFTPC	arch/arm32/include/pmu.h	/^	INSN_SPEC_SOFTPC			= 0x76,$/;"	e	enum:__anon2
+INSN_SPEC_ST	arch/arm32/include/pmu.h	/^	INSN_SPEC_ST				= 0x71,$/;"	e	enum:__anon2
+INSN_SPEC_VFP	arch/arm32/include/pmu.h	/^	INSN_SPEC_VFP				= 0x75,$/;"	e	enum:__anon2
+INSTRUCTION	arch/arm32/include/pmu.h	/^	INSTRUCTION					= 0x08,$/;"	e	enum:__anon2
+INST_SPECULATIVE	arch/arm32/include/pmu.h	/^	INST_SPECULATIVE			= 0x1B,$/;"	e	enum:__anon2
+INST_TTB	arch/arm32/include/pmu.h	/^	INST_TTB					= 0x1C,$/;"	e	enum:__anon2
+INTMAX_MAX	arch/arm32/include/limits.h	52;"	d
+INTMAX_MIN	arch/arm32/include/limits.h	51;"	d
+INT_MAX	arch/arm32/include/limits.h	31;"	d
+INT_MIN	arch/arm32/include/limits.h	30;"	d
+IRQ_BASE_ADDR	driver/irq-f1c100s.c	/^	IRQ_BASE_ADDR		= 0x04,$/;"	e	enum:__anon12	file:
+IRQ_ENABLE0	driver/irq-f1c100s.c	/^	IRQ_ENABLE0			= 0x20,$/;"	e	enum:__anon12	file:
+IRQ_ENABLE1	driver/irq-f1c100s.c	/^	IRQ_ENABLE1			= 0x24,$/;"	e	enum:__anon12	file:
+IRQ_EXCEPTION	arch/arm32/include/pmu.h	/^	IRQ_EXCEPTION				= 0x86,$/;"	e	enum:__anon2
+IRQ_FORCE0	driver/irq-f1c100s.c	/^	IRQ_FORCE0			= 0x50,$/;"	e	enum:__anon12	file:
+IRQ_FORCE1	driver/irq-f1c100s.c	/^	IRQ_FORCE1			= 0x54,$/;"	e	enum:__anon12	file:
+IRQ_MASK0	driver/irq-f1c100s.c	/^	IRQ_MASK0			= 0x30,$/;"	e	enum:__anon12	file:
+IRQ_MASK1	driver/irq-f1c100s.c	/^	IRQ_MASK1			= 0x34,$/;"	e	enum:__anon12	file:
+IRQ_NMI_CTRL	driver/irq-f1c100s.c	/^	IRQ_NMI_CTRL		= 0x0c,$/;"	e	enum:__anon12	file:
+IRQ_PEND0	driver/irq-f1c100s.c	/^	IRQ_PEND0			= 0x10,$/;"	e	enum:__anon12	file:
+IRQ_PEND1	driver/irq-f1c100s.c	/^	IRQ_PEND1			= 0x14,$/;"	e	enum:__anon12	file:
+IRQ_PRIORITY0	driver/irq-f1c100s.c	/^	IRQ_PRIORITY0		= 0x60,$/;"	e	enum:__anon12	file:
+IRQ_PRIORITY1	driver/irq-f1c100s.c	/^	IRQ_PRIORITY1		= 0x64,$/;"	e	enum:__anon12	file:
+IRQ_PRIORITY2	driver/irq-f1c100s.c	/^	IRQ_PRIORITY2		= 0x68,$/;"	e	enum:__anon12	file:
+IRQ_PRIORITY3	driver/irq-f1c100s.c	/^	IRQ_PRIORITY3		= 0x6c,$/;"	e	enum:__anon12	file:
+IRQ_RESP0	driver/irq-f1c100s.c	/^	IRQ_RESP0			= 0x40,$/;"	e	enum:__anon12	file:
+IRQ_RESP1	driver/irq-f1c100s.c	/^	IRQ_RESP1			= 0x44,$/;"	e	enum:__anon12	file:
+IRQ_VECTOR	driver/irq-f1c100s.c	/^	IRQ_VECTOR			= 0x00,$/;"	e	enum:__anon12	file:
+KEY_MODE_SEL	driver/key-f1c100s-lradc.c	42;"	d	file:
+L1DCACHE_ACCESS	arch/arm32/include/pmu.h	/^	L1DCACHE_ACCESS 			= 0x04,$/;"	e	enum:__anon2
+L1DCACHE_ACCESS_LD	arch/arm32/include/pmu.h	/^	L1DCACHE_ACCESS_LD			= 0x40,$/;"	e	enum:__anon2
+L1DCACHE_ACCESS_ST	arch/arm32/include/pmu.h	/^	L1DCACHE_ACCESS_ST			= 0x41,$/;"	e	enum:__anon2
+L1DCACHE_EVICTION	arch/arm32/include/pmu.h	/^	L1DCACHE_EVICTION			= 0x15,$/;"	e	enum:__anon2
+L1DCACHE_EVICTION_LD	arch/arm32/include/pmu.h	/^	L1DCACHE_EVICTION_LD		= 0x46,$/;"	e	enum:__anon2
+L1DCACHE_EVICTION_ST	arch/arm32/include/pmu.h	/^	L1DCACHE_EVICTION_ST		= 0x47,$/;"	e	enum:__anon2
+L1DCACHE_INVALID	arch/arm32/include/pmu.h	/^	L1DCACHE_INVALID			= 0x48,$/;"	e	enum:__anon2
+L1DCACHE_MISS	arch/arm32/include/pmu.h	/^	L1DCACHE_MISS				= 0x03,$/;"	e	enum:__anon2
+L1DCACHE_MISS_LD	arch/arm32/include/pmu.h	/^	L1DCACHE_MISS_LD			= 0x42,$/;"	e	enum:__anon2
+L1DCACHE_MISS_ST	arch/arm32/include/pmu.h	/^	L1DCACHE_MISS_ST			= 0x43,$/;"	e	enum:__anon2
+L1DTLB_MISS	arch/arm32/include/pmu.h	/^	L1DTLB_MISS 				= 0x05,$/;"	e	enum:__anon2
+L1DTLB_MISS_LD	arch/arm32/include/pmu.h	/^	L1DTLB_MISS_LD				= 0x4C,$/;"	e	enum:__anon2
+L1DTLB_MISS_ST	arch/arm32/include/pmu.h	/^	L1DTLB_MISS_ST				= 0x4D,$/;"	e	enum:__anon2
+L1ICACHE_ACCESS	arch/arm32/include/pmu.h	/^	L1ICACHE_ACCESS				= 0x14,$/;"	e	enum:__anon2
+L1ICACHE_MISS	arch/arm32/include/pmu.h	/^	L1ICACHE_MISS				= 0x01,$/;"	e	enum:__anon2
+L1ITLB_MISS	arch/arm32/include/pmu.h	/^	L1ITLB_MISS					= 0x02,$/;"	e	enum:__anon2
+L2DCACHE_ACCESS	arch/arm32/include/pmu.h	/^	L2DCACHE_ACCESS				= 0x16,$/;"	e	enum:__anon2
+L2DCACHE_EVICTION	arch/arm32/include/pmu.h	/^	L2DCACHE_EVICTION			= 0x18,$/;"	e	enum:__anon2
+L2DCACHE_EVICTION_CLEAN	arch/arm32/include/pmu.h	/^	L2DCACHE_EVICTION_CLEAN		= 0x57,$/;"	e	enum:__anon2
+L2DCACHE_EVICTION_VICTIM	arch/arm32/include/pmu.h	/^	L2DCACHE_EVICTION_VICTIM	= 0x56,$/;"	e	enum:__anon2
+L2DCACHE_INVALID	arch/arm32/include/pmu.h	/^	L2DCACHE_INVALID			= 0x58,$/;"	e	enum:__anon2
+L2DCACHE_MISS	arch/arm32/include/pmu.h	/^	L2DCACHE_MISS				= 0x17,$/;"	e	enum:__anon2
+L2DCACHE_MISS_LD	arch/arm32/include/pmu.h	/^	L2DCACHE_MISS_LD			= 0x52,$/;"	e	enum:__anon2
+L2DCACHE_MISS_ST	arch/arm32/include/pmu.h	/^	L2DCACHE_MISS_ST			= 0x53,$/;"	e	enum:__anon2
+LD	Makefile	/^LD	          = $(CROSS_COMPILE)ld$/;"	m
+LDBL_DECIMAL_DIG	arch/arm32/include/float.h	41;"	d
+LDBL_DIG	arch/arm32/include/float.h	55;"	d
+LDBL_EPSILON	arch/arm32/include/float.h	49;"	d
+LDBL_HAS_SUBNORM	arch/arm32/include/float.h	40;"	d
+LDBL_MANT_DIG	arch/arm32/include/float.h	51;"	d
+LDBL_MAX	arch/arm32/include/float.h	48;"	d
+LDBL_MAX_10_EXP	arch/arm32/include/float.h	57;"	d
+LDBL_MAX_EXP	arch/arm32/include/float.h	53;"	d
+LDBL_MIN	arch/arm32/include/float.h	47;"	d
+LDBL_MIN_10_EXP	arch/arm32/include/float.h	56;"	d
+LDBL_MIN_EXP	arch/arm32/include/float.h	52;"	d
+LDBL_TRUE_MIN	arch/arm32/include/float.h	46;"	d
+LDFLAGS	Makefile	/^LDFLAGS		:= -T f1c100s.ld -nostdlib$/;"	m
+LDREX	arch/arm32/include/pmu.h	/^	LDREX						= 0x6C,$/;"	e	enum:__anon2
+LEVELA_B_CNT	driver/key-f1c100s-lradc.c	43;"	d	file:
+LEVELB_VOL	driver/key-f1c100s-lradc.c	45;"	d	file:
+LIBDIRS	Makefile	/^LIBDIRS		:=$/;"	m
+LIBS	Makefile	/^LIBS 		:= -lgcc$/;"	m
+LINEFILL_PREFETCH	arch/arm32/include/pmu.h	/^	LINEFILL_PREFETCH			= 0xC2,$/;"	e	enum:__anon2
+LINEFILL_PREFETCH_DROPPED	arch/arm32/include/pmu.h	/^	LINEFILL_PREFETCH_DROPPED	= 0xC3,$/;"	e	enum:__anon2
+LITTLE_ENDIAN	arch/arm32/include/endian.h	8;"	d
+LLONG_MAX	arch/arm32/include/limits.h	45;"	d
+LLONG_MIN	arch/arm32/include/limits.h	44;"	d
+LOCAL_MEM_ERR	arch/arm32/include/pmu.h	/^	LOCAL_MEM_ERR				= 0x1A,$/;"	e	enum:__anon2
+LONG_MAX	arch/arm32/include/limits.h	38;"	d
+LONG_MIN	arch/arm32/include/limits.h	37;"	d
+LRADC_CTRL	driver/key-f1c100s-lradc.c	/^	LRADC_CTRL	= 0x00,$/;"	e	enum:__anon19	file:
+LRADC_DATA0	driver/key-f1c100s-lradc.c	/^	LRADC_DATA0	= 0x0c,$/;"	e	enum:__anon19	file:
+LRADC_INTC	driver/key-f1c100s-lradc.c	/^	LRADC_INTC	= 0x04,$/;"	e	enum:__anon19	file:
+LRADC_INTS	driver/key-f1c100s-lradc.c	/^	LRADC_INTS	= 0x08,$/;"	e	enum:__anon19	file:
+MAP_TYPE_CB	arch/arm32/include/mmu.h	/^	MAP_TYPE_CB		= 0x3,$/;"	e	enum:__anon3
+MAP_TYPE_CNB	arch/arm32/include/mmu.h	/^	MAP_TYPE_CNB	= 0x2,$/;"	e	enum:__anon3
+MAP_TYPE_NCB	arch/arm32/include/mmu.h	/^	MAP_TYPE_NCB	= 0x1,$/;"	e	enum:__anon3
+MAP_TYPE_NCNB	arch/arm32/include/mmu.h	/^	MAP_TYPE_NCNB	= 0x0,$/;"	e	enum:__anon3
+MCFLAGS	Makefile	/^MCFLAGS		:= -march=armv5te -mtune=arm926ej-s -mfloat-abi=soft -marm -mno-thumb-interwork$/;"	m
+MISPREDICTED_BRANCH	arch/arm32/include/pmu.h	/^	MISPREDICTED_BRANCH			= 0x10,$/;"	e	enum:__anon2
+MKDIR	Makefile	/^MKDIR = mkdir$/;"	m
+MKSUNXI	Makefile	/^MKSUNXI		:= tools\/mksunxi\/mksunxi$/;"	m
+NONCACHABLE_EXTERN_MEM_REQ	arch/arm32/include/pmu.h	/^	NONCACHABLE_EXTERN_MEM_REQ	= 0xC1,$/;"	e	enum:__anon2
+OBJ	Makefile	/^OBJ = $(addprefix $(BUILD)\/, $(SRC_C:.c=.o)) $(addprefix $(BUILD)\/, $(SRC_ASM:.S=.o))$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY	      = $(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP       = $(CROSS_COMPILE)objdump$/;"	m
+OBJ_DIRS	Makefile	/^OBJ_DIRS = $(sort $(dir $(OBJ)))$/;"	m
+PIXEL_FORMAT_A1	driver/include/framebuffer.h	/^	PIXEL_FORMAT_A1			= 3,$/;"	e	enum:__anon26
+PIXEL_FORMAT_A8	driver/include/framebuffer.h	/^	PIXEL_FORMAT_A8			= 2,$/;"	e	enum:__anon26
+PIXEL_FORMAT_ARGB32	driver/include/framebuffer.h	/^	PIXEL_FORMAT_ARGB32		= 0,$/;"	e	enum:__anon26
+PIXEL_FORMAT_RGB16_565	driver/include/framebuffer.h	/^	PIXEL_FORMAT_RGB16_565	= 4,$/;"	e	enum:__anon26
+PIXEL_FORMAT_RGB24	driver/include/framebuffer.h	/^	PIXEL_FORMAT_RGB24		= 1,$/;"	e	enum:__anon26
+PIXEL_FORMAT_RGB30	driver/include/framebuffer.h	/^	PIXEL_FORMAT_RGB30		= 5,$/;"	e	enum:__anon26
+PLL_DDR_CLK	machine/sys-dram.c	29;"	d	file:
+PREDICTABLE_BRANCH	arch/arm32/include/pmu.h	/^	PREDICTABLE_BRANCH			= 0x12,$/;"	e	enum:__anon2
+PROCEDURE_RETURN	arch/arm32/include/pmu.h	/^	PROCEDURE_RETURN			= 0x0E,$/;"	e	enum:__anon2
+PROG	tools/mksunxi/Makefile	/^PROG = mksunxi$/;"	m
+PWM_BIT	driver/pwm-f1c100s.c	31;"	d	file:
+PWM_CTRL	driver/pwm-f1c100s.c	30;"	d	file:
+PWM_PERIOD	driver/pwm-f1c100s.c	32;"	d	file:
+PYTHON	Makefile	/^PYTHON = python$/;"	m
+READ_ALLOCATE_MD	arch/arm32/include/pmu.h	/^	READ_ALLOCATE_MD			= 0xC4,$/;"	e	enum:__anon2
+RINSTRUCTION	arch/arm32/include/pmu.h	/^	RINSTRUCTION				= 0x06,$/;"	e	enum:__anon2
+RM	Makefile	/^RM = rm$/;"	m
+SAMPLE_RATE	driver/key-f1c100s-lradc.c	46;"	d	file:
+SCHAR_MAX	arch/arm32/include/limits.h	13;"	d
+SCHAR_MIN	arch/arm32/include/limits.h	12;"	d
+SDR_T_CAS	machine/sys-dram.c	30;"	d	file:
+SDR_T_INIT	machine/sys-dram.c	38;"	d	file:
+SDR_T_INIT_REF	machine/sys-dram.c	39;"	d	file:
+SDR_T_RAS	machine/sys-dram.c	31;"	d	file:
+SDR_T_RC	machine/sys-dram.c	37;"	d	file:
+SDR_T_RCD	machine/sys-dram.c	32;"	d	file:
+SDR_T_RFC	machine/sys-dram.c	35;"	d	file:
+SDR_T_RP	machine/sys-dram.c	33;"	d	file:
+SDR_T_RRD	machine/sys-dram.c	41;"	d	file:
+SDR_T_WR	machine/sys-dram.c	34;"	d	file:
+SDR_T_WTR	machine/sys-dram.c	40;"	d	file:
+SDR_T_XP	machine/sys-dram.c	42;"	d	file:
+SDR_T_XSR	machine/sys-dram.c	36;"	d	file:
+SED	Makefile	/^SED = sed$/;"	m
+SHRT_MAX	arch/arm32/include/limits.h	24;"	d
+SHRT_MIN	arch/arm32/include/limits.h	23;"	d
+SIZE	Makefile	/^SIZE 		  = $(CROSS_COMPILE)size$/;"	m
+SL_INDEX_COUNT	lib/malloc.c	/^	SL_INDEX_COUNT = (1 << SL_INDEX_COUNT_LOG2),$/;"	e	enum:tlsf_private	file:
+SL_INDEX_COUNT_LOG2	lib/malloc.c	/^	SL_INDEX_COUNT_LOG2 = 5,$/;"	e	enum:tlsf_public	file:
+SMALL_BLOCK_SIZE	lib/malloc.c	/^	SMALL_BLOCK_SIZE = (1 << FL_INDEX_SHIFT),$/;"	e	enum:tlsf_private	file:
+SOFTWARE_INCREMENT	arch/arm32/include/pmu.h	/^	SOFTWARE_INCREMENT			= 0x00,$/;"	e	enum:__anon2
+SOFT_PC	arch/arm32/include/pmu.h	/^	SOFT_PC						= 0x0C,$/;"	e	enum:__anon2
+SPIN_LOCK_INIT	arch/arm32/include/spinlock.h	26;"	d
+SPI_BCC	driver/spi-f1c100s.c	/^	SPI_BCC	= 0x38,$/;"	e	enum:__anon11	file:
+SPI_BCC	machine/sys-spi-flash.c	/^	SPI_BCC	= 0x38,$/;"	e	enum:__anon6	file:
+SPI_CCR	driver/spi-f1c100s.c	/^	SPI_CCR	= 0x24,$/;"	e	enum:__anon11	file:
+SPI_CCR	machine/sys-spi-flash.c	/^	SPI_CCR	= 0x24,$/;"	e	enum:__anon6	file:
+SPI_FCR	driver/spi-f1c100s.c	/^	SPI_FCR	= 0x18,$/;"	e	enum:__anon11	file:
+SPI_FCR	machine/sys-spi-flash.c	/^	SPI_FCR	= 0x18,$/;"	e	enum:__anon6	file:
+SPI_FSR	driver/spi-f1c100s.c	/^	SPI_FSR	= 0x1c,$/;"	e	enum:__anon11	file:
+SPI_FSR	machine/sys-spi-flash.c	/^	SPI_FSR	= 0x1c,$/;"	e	enum:__anon6	file:
+SPI_GCR	driver/spi-f1c100s.c	/^	SPI_GCR	= 0x04,$/;"	e	enum:__anon11	file:
+SPI_GCR	machine/sys-spi-flash.c	/^	SPI_GCR	= 0x04,$/;"	e	enum:__anon6	file:
+SPI_IER	driver/spi-f1c100s.c	/^	SPI_IER	= 0x10,$/;"	e	enum:__anon11	file:
+SPI_IER	machine/sys-spi-flash.c	/^	SPI_IER	= 0x10,$/;"	e	enum:__anon6	file:
+SPI_ISR	driver/spi-f1c100s.c	/^	SPI_ISR	= 0x14,$/;"	e	enum:__anon11	file:
+SPI_ISR	machine/sys-spi-flash.c	/^	SPI_ISR	= 0x14,$/;"	e	enum:__anon6	file:
+SPI_MBC	driver/spi-f1c100s.c	/^	SPI_MBC	= 0x30,$/;"	e	enum:__anon11	file:
+SPI_MBC	machine/sys-spi-flash.c	/^	SPI_MBC	= 0x30,$/;"	e	enum:__anon6	file:
+SPI_MTC	driver/spi-f1c100s.c	/^	SPI_MTC	= 0x34,$/;"	e	enum:__anon11	file:
+SPI_MTC	machine/sys-spi-flash.c	/^	SPI_MTC	= 0x34,$/;"	e	enum:__anon6	file:
+SPI_RXD	driver/spi-f1c100s.c	/^	SPI_RXD	= 0x300,$/;"	e	enum:__anon11	file:
+SPI_RXD	machine/sys-spi-flash.c	/^	SPI_RXD	= 0x300,$/;"	e	enum:__anon6	file:
+SPI_TCR	driver/spi-f1c100s.c	/^	SPI_TCR	= 0x08,$/;"	e	enum:__anon11	file:
+SPI_TCR	machine/sys-spi-flash.c	/^	SPI_TCR	= 0x08,$/;"	e	enum:__anon6	file:
+SPI_TXD	driver/spi-f1c100s.c	/^	SPI_TXD	= 0x200,$/;"	e	enum:__anon11	file:
+SPI_TXD	machine/sys-spi-flash.c	/^	SPI_TXD	= 0x200,$/;"	e	enum:__anon6	file:
+SPI_WCR	driver/spi-f1c100s.c	/^	SPI_WCR	= 0x20,$/;"	e	enum:__anon11	file:
+SPI_WCR	machine/sys-spi-flash.c	/^	SPI_WCR	= 0x20,$/;"	e	enum:__anon6	file:
+SRAM_LOAD_MAX_SIZE	tools/mksunxi/mksunxi.c	38;"	d	file:
+SRCDIRS	Makefile	/^SRCDIRS		:=$/;"	m
+SRC_ASM	Makefile	/^SRC_ASM = machine\/start.S \\$/;"	m
+SRC_C	Makefile	/^SRC_C = \\$/;"	m
+STREX_FAIL	arch/arm32/include/pmu.h	/^	STREX_FAIL					= 0x6E,$/;"	e	enum:__anon2
+STREX_PASS	arch/arm32/include/pmu.h	/^	STREX_PASS					= 0x6D,$/;"	e	enum:__anon2
+SUN4I_SRAM_SIZE	tools/mksunxi/mksunxi.c	37;"	d	file:
+SZ_128K	include/sizes.h	18;"	d
+SZ_128K	machine/include/sizes.h	18;"	d
+SZ_128M	include/sizes.h	29;"	d
+SZ_128M	machine/include/sizes.h	29;"	d
+SZ_16	include/sizes.h	8;"	d
+SZ_16	machine/include/sizes.h	8;"	d
+SZ_16K	include/sizes.h	15;"	d
+SZ_16K	machine/include/sizes.h	15;"	d
+SZ_16M	include/sizes.h	26;"	d
+SZ_16M	machine/include/sizes.h	26;"	d
+SZ_1G	include/sizes.h	33;"	d
+SZ_1G	machine/include/sizes.h	33;"	d
+SZ_1K	include/sizes.h	12;"	d
+SZ_1K	machine/include/sizes.h	12;"	d
+SZ_1M	include/sizes.h	22;"	d
+SZ_1M	machine/include/sizes.h	22;"	d
+SZ_256	include/sizes.h	9;"	d
+SZ_256	machine/include/sizes.h	9;"	d
+SZ_256K	include/sizes.h	19;"	d
+SZ_256K	machine/include/sizes.h	19;"	d
+SZ_256M	include/sizes.h	30;"	d
+SZ_256M	machine/include/sizes.h	30;"	d
+SZ_2G	include/sizes.h	34;"	d
+SZ_2G	machine/include/sizes.h	34;"	d
+SZ_2M	include/sizes.h	23;"	d
+SZ_2M	machine/include/sizes.h	23;"	d
+SZ_32K	include/sizes.h	16;"	d
+SZ_32K	machine/include/sizes.h	16;"	d
+SZ_32M	include/sizes.h	27;"	d
+SZ_32M	machine/include/sizes.h	27;"	d
+SZ_4K	include/sizes.h	13;"	d
+SZ_4K	machine/include/sizes.h	13;"	d
+SZ_4M	include/sizes.h	24;"	d
+SZ_4M	machine/include/sizes.h	24;"	d
+SZ_512	include/sizes.h	10;"	d
+SZ_512	machine/include/sizes.h	10;"	d
+SZ_512K	include/sizes.h	20;"	d
+SZ_512K	machine/include/sizes.h	20;"	d
+SZ_512M	include/sizes.h	31;"	d
+SZ_512M	machine/include/sizes.h	31;"	d
+SZ_64K	include/sizes.h	17;"	d
+SZ_64K	machine/include/sizes.h	17;"	d
+SZ_64M	include/sizes.h	28;"	d
+SZ_64M	machine/include/sizes.h	28;"	d
+SZ_8K	include/sizes.h	14;"	d
+SZ_8K	machine/include/sizes.h	14;"	d
+SZ_8M	include/sizes.h	25;"	d
+SZ_8M	machine/include/sizes.h	25;"	d
+TEST_FB	main.c	12;"	d	file:
+TEST_GPIO	main.c	10;"	d	file:
+TEST_PWM	main.c	11;"	d	file:
+TIMER_CTRL	driver/ce-f1c100s-timer.c	32;"	d	file:
+TIMER_CTRL	driver/cs-f1c100s-timer.c	31;"	d	file:
+TIMER_CUR	driver/ce-f1c100s-timer.c	34;"	d	file:
+TIMER_CUR	driver/cs-f1c100s-timer.c	33;"	d	file:
+TIMER_INTV	driver/ce-f1c100s-timer.c	33;"	d	file:
+TIMER_INTV	driver/cs-f1c100s-timer.c	32;"	d	file:
+TIMER_IRQ_EN	driver/ce-f1c100s-timer.c	30;"	d	file:
+TIMER_IRQ_EN	driver/cs-f1c100s-timer.c	29;"	d	file:
+TIMER_IRQ_STA	driver/ce-f1c100s-timer.c	31;"	d	file:
+TIMER_IRQ_STA	driver/cs-f1c100s-timer.c	30;"	d	file:
+TLSF_64BIT	lib/malloc.c	20;"	d	file:
+TLSF_64BIT	lib/malloc.c	22;"	d	file:
+UART_DLH	driver/uart-16550.c	64;"	d	file:
+UART_DLL	driver/uart-16550.c	63;"	d	file:
+UART_FCR	driver/uart-16550.c	67;"	d	file:
+UART_HALT	driver/uart-16550.c	76;"	d	file:
+UART_IER	driver/uart-16550.c	65;"	d	file:
+UART_IIR	driver/uart-16550.c	66;"	d	file:
+UART_LCR	driver/uart-16550.c	68;"	d	file:
+UART_LSR	driver/uart-16550.c	70;"	d	file:
+UART_MCR	driver/uart-16550.c	69;"	d	file:
+UART_MSR	driver/uart-16550.c	71;"	d	file:
+UART_RBR	driver/uart-16550.c	61;"	d	file:
+UART_RFL	driver/uart-16550.c	75;"	d	file:
+UART_SCH	driver/uart-16550.c	72;"	d	file:
+UART_TFL	driver/uart-16550.c	74;"	d	file:
+UART_THR	driver/uart-16550.c	62;"	d	file:
+UART_USR	driver/uart-16550.c	73;"	d	file:
+UCHAR_MAX	arch/arm32/include/limits.h	20;"	d
+UINTMAX_MAX	arch/arm32/include/limits.h	55;"	d
+UINT_MAX	arch/arm32/include/limits.h	34;"	d
+ULLONG_MAX	arch/arm32/include/limits.h	48;"	d
+ULONG_MAX	arch/arm32/include/limits.h	41;"	d
+UNALIGNED_ACCESS	arch/arm32/include/pmu.h	/^	UNALIGNED_ACCESS			= 0x6A,$/;"	e	enum:__anon2
+UNALIGNED_ACCESS_LD	arch/arm32/include/pmu.h	/^	UNALIGNED_ACCESS_LD			= 0x68,$/;"	e	enum:__anon2
+UNALIGNED_ACCESS_ST	arch/arm32/include/pmu.h	/^	UNALIGNED_ACCESS_ST			= 0x69,$/;"	e	enum:__anon2
+UNALIGNED_LS	arch/arm32/include/pmu.h	/^	UNALIGNED_LS				= 0x0F,$/;"	e	enum:__anon2
+USHRT_MAX	arch/arm32/include/limits.h	27;"	d
+WDOG_CFG	driver/wdog-f1c100s.c	/^	WDOG_CFG		= 0x14,$/;"	e	enum:__anon16	file:
+WDOG_CTRL	driver/wdog-f1c100s.c	/^	WDOG_CTRL		= 0x10,$/;"	e	enum:__anon16	file:
+WDOG_IRQ_EN	driver/wdog-f1c100s.c	/^	WDOG_IRQ_EN		= 0x00,$/;"	e	enum:__anon16	file:
+WDOG_IRQ_STA	driver/wdog-f1c100s.c	/^	WDOG_IRQ_STA	= 0x04,$/;"	e	enum:__anon16	file:
+WDOG_MODE	driver/wdog-f1c100s.c	/^	WDOG_MODE		= 0x18,$/;"	e	enum:__anon16	file:
+WEAK	arch/arm32/include/linkage.h	16;"	d
+WINSTRUCTION	arch/arm32/include/pmu.h	/^	WINSTRUCTION				= 0x07,$/;"	e	enum:__anon2
+WRITE_STL_BUF	arch/arm32/include/pmu.h	/^	WRITE_STL_BUF				= 0xC9,$/;"	e	enum:__anon2
+__ALIGN_MASK	tools/mksunxi/mksunxi.c	35;"	d	file:
+__ARM32_ATOMIC_H__	arch/arm32/include/atomic.h	2;"	d
+__ARM32_BARRIER_H__	arch/arm32/include/barrier.h	2;"	d
+__ARM32_ENDIAN_H__	arch/arm32/include/endian.h	2;"	d
+__ARM32_FLOAT_H__	arch/arm32/include/float.h	2;"	d
+__ARM32_H__	arch/arm32/include/arm32.h	2;"	d
+__ARM32_IRQFLAGS_H__	arch/arm32/include/irqflags.h	2;"	d
+__ARM32_LIMITS_H__	arch/arm32/include/limits.h	2;"	d
+__ARM32_LINKAGE_H__	arch/arm32/include/linkage.h	2;"	d
+__ARM32_MMU_H__	arch/arm32/include/mmu.h	2;"	d
+__ARM32_PMU_H__	arch/arm32/include/pmu.h	2;"	d
+__ARM32_SETJMP_H__	arch/arm32/include/setjmp.h	2;"	d
+__ARM32_SPINLOCK_H__	arch/arm32/include/spinlock.h	2;"	d
+__ARM32_TYPES_H__	arch/arm32/include/types.h	2;"	d
+__ARM32_TYPES_H__	machine/include/core_types.h	2;"	d
+__CLK_F1C100S_PLL_H__	driver/include/clk-f1c100s-pll.h	2;"	d
+__DMA_H__	lib/dma.h	2;"	d
+__F1C100S_GPIO_H__	machine/include/f1c100s-gpio.h	2;"	d
+__F1C100S_IRQ_H__	machine/include/f1c100s-irq.h	2;"	d
+__F1C100S_REG_CCU_H__	machine/include/f1c100s/reg-ccu.h	2;"	d
+__F1C100S_REG_DEBE_H__	machine/include/f1c100s/reg-debe.h	2;"	d
+__F1C100S_REG_DEFE_H__	machine/include/f1c100s/reg-defe.h	2;"	d
+__F1C100S_REG_DRAM_H__	machine/include/f1c100s/reg-dram.h	2;"	d
+__F1C100S_REG_TCON_H__	machine/include/f1c100s/reg-tcon.h	2;"	d
+__F1C100S_RESET_H__	machine/include/f1c100s-reset.h	2;"	d
+__FRAMEBUFFER_H__	driver/include/framebuffer.h	2;"	d
+__GPIO_F1C100S_H__	driver/include/gpio-f1c100s.h	2;"	d
+__IO_H__	include/io.h	2;"	d
+__IO_H__	machine/include/io.h	2;"	d
+__LITTLE_ENDIAN	arch/arm32/include/endian.h	12;"	d
+__MALLOC_H__	lib/malloc.h	2;"	d
+__MODULE_H__	lib/module.h	2;"	d
+__OVERRIDE_CONFIGS_H__	machine/include/configs.h	2;"	d
+__PWM_H__	driver/include/pwm-f1c100s.h	2;"	d
+__RESET_F1C100S_H__	driver/include/reset-f1c100s.h	2;"	d
+__SIZES_H__	include/sizes.h	2;"	d
+__SIZES_H__	machine/include/sizes.h	2;"	d
+__aeabi_memcpy	arch/arm32/lib/eabi.c	/^void __aeabi_memcpy(void * dest, const void * src, size_t len)$/;"	f
+__aeabi_memset	arch/arm32/lib/eabi.c	/^void __aeabi_memset(void * s, size_t n, int c)$/;"	f
+__aeabi_unwind_cpp_pr0	arch/arm32/lib/eabi.c	/^void __aeabi_unwind_cpp_pr0(void)$/;"	f
+__aeabi_unwind_cpp_pr1	arch/arm32/lib/eabi.c	/^void __aeabi_unwind_cpp_pr1(void)$/;"	f
+__assert_func	main.c	/^void __assert_func(const char *file, int line, const char *func, const char *expr) {$/;"	f
+__dma_cache_sync	lib/dma.c	/^static void __dma_cache_sync(void * addr, unsigned long size, int dir)$/;"	f	file:
+__dma_pool	lib/dma.c	/^static void * __dma_pool = NULL;$/;"	v	file:
+__fatal_error	main.c	/^void __fatal_error(const char *msg) {$/;"	f
+__heap_pool	lib/malloc.c	/^static void * __heap_pool = NULL;$/;"	v	file:
+__jmp_buf	arch/arm32/include/setjmp.h	/^	unsigned long long __jmp_buf[32];$/;"	m	struct:__jmp_buf
+__jmp_buf	arch/arm32/include/setjmp.h	/^struct __jmp_buf {$/;"	s
+__mmu_ttb	arch/arm32/lib/cpu/mmu.c	/^static u32_t __mmu_ttb[4096] __attribute__((aligned(0x4000)));$/;"	v	file:
+_bss_end	machine/start.S	/^_bss_end:$/;"	l
+_bss_start	machine/start.S	/^_bss_start:$/;"	l
+_data_abort	machine/start.S	/^_data_abort:$/;"	l
+_data_end	machine/start.S	/^_data_end:$/;"	l
+_data_shadow_end	machine/start.S	/^_data_shadow_end:$/;"	l
+_data_shadow_start	machine/start.S	/^_data_shadow_start:$/;"	l
+_data_start	machine/start.S	/^_data_start:$/;"	l
+_fiq	machine/start.S	/^_fiq:$/;"	l
+_image_end	machine/start.S	/^_image_end:$/;"	l
+_image_start	machine/start.S	/^_image_start:$/;"	l
+_irq	machine/start.S	/^_irq:$/;"	l
+_main	machine/start.S	/^_main:$/;"	l
+_not_used	machine/start.S	/^_not_used:$/;"	l
+_prefetch_abort	machine/start.S	/^_prefetch_abort:$/;"	l
+_software_interrupt	machine/start.S	/^_software_interrupt:$/;"	l
+_speedup	machine/start.S	/^_speedup:$/;"	l
+_stack_abt_end	machine/start.S	/^_stack_abt_end:$/;"	l
+_stack_fiq_end	machine/start.S	/^_stack_fiq_end:$/;"	l
+_stack_irq_end	machine/start.S	/^_stack_irq_end:$/;"	l
+_stack_srv_end	machine/start.S	/^_stack_srv_end:$/;"	l
+_stack_und_end	machine/start.S	/^_stack_und_end:$/;"	l
+_start	machine/start.S	/^_start:$/;"	l
+_undefined_instruction	machine/start.S	/^_undefined_instruction:$/;"	l
+_vector	machine/start.S	/^_vector:$/;"	l
+access_mode	machine/sys-dram.c	/^	uint32_t access_mode;		\/* 0: interleave mode 1: sequence mode *\/$/;"	m	struct:dram_para_t	file:
+adc_key_t	driver/key-f1c100s-lradc.c	/^struct adc_key_t {$/;"	s	file:
+addr	lib/module.h	/^	void * addr;$/;"	m	struct:symbol_t
+adjust_request_size	lib/malloc.c	/^static size_t adjust_request_size(size_t size, size_t align)$/;"	f	file:
+algorithm_sel	machine/include/f1c100s/reg-defe.h	/^	u32_t algorithm_sel;			\/* 0x00c *\/$/;"	m	struct:f1c100s_defe_reg_t
+align_down	lib/malloc.c	/^static size_t align_down(size_t x, size_t align)$/;"	f	file:
+align_ptr	lib/malloc.c	/^static void * align_ptr(const void * ptr, size_t align)$/;"	f	file:
+align_up	lib/malloc.c	/^static size_t align_up(size_t x, size_t align)$/;"	f	file:
+alone	driver/include/framebuffer.h	/^	render_t * alone;$/;"	m	struct:framebuffer_st
+arch_local_irq_disable	arch/arm32/include/irqflags.h	/^static inline void arch_local_irq_disable(void)$/;"	f
+arch_local_irq_enable	arch/arm32/include/irqflags.h	/^static inline void arch_local_irq_enable(void)$/;"	f
+arch_local_irq_restore	arch/arm32/include/irqflags.h	/^static inline void arch_local_irq_restore(irq_flags_t flags)$/;"	f
+arch_local_irq_save	arch/arm32/include/irqflags.h	/^static inline irq_flags_t arch_local_irq_save(void)$/;"	f
+arch_spin_lock	arch/arm32/include/spinlock.h	/^static inline void arch_spin_lock(spinlock_t * lock)$/;"	f
+arch_spin_trylock	arch/arm32/include/spinlock.h	/^static inline int arch_spin_trylock(spinlock_t * lock)$/;"	f
+arch_spin_unlock	arch/arm32/include/spinlock.h	/^static inline void arch_spin_unlock(spinlock_t * lock)$/;"	f
+arm32_dcache_disable	arch/arm32/include/arm32.h	/^static inline void arm32_dcache_disable(void)$/;"	f
+arm32_dcache_enable	arch/arm32/include/arm32.h	/^static inline void arm32_dcache_enable(void)$/;"	f
+arm32_do_data_abort	machine/exception.c	/^void arm32_do_data_abort(struct arm_regs_t * regs)$/;"	f
+arm32_do_fiq	machine/exception.c	/^void arm32_do_fiq(struct arm_regs_t * regs)$/;"	f
+arm32_do_irq	machine/exception.c	/^void arm32_do_irq(struct arm_regs_t * regs)$/;"	f
+arm32_do_prefetch_abort	machine/exception.c	/^void arm32_do_prefetch_abort(struct arm_regs_t * regs)$/;"	f
+arm32_do_software_interrupt	machine/exception.c	/^void arm32_do_software_interrupt(struct arm_regs_t * regs)$/;"	f
+arm32_do_undefined_instruction	machine/exception.c	/^void arm32_do_undefined_instruction(struct arm_regs_t * regs)$/;"	f
+arm32_domain_set	arch/arm32/include/arm32.h	/^static inline void arm32_domain_set(uint32_t domain)$/;"	f
+arm32_icache_disable	arch/arm32/include/arm32.h	/^static inline void arm32_icache_disable(void)$/;"	f
+arm32_icache_enable	arch/arm32/include/arm32.h	/^static inline void arm32_icache_enable(void)$/;"	f
+arm32_interrupt_disable	arch/arm32/include/arm32.h	/^static inline void arm32_interrupt_disable(void)$/;"	f
+arm32_interrupt_enable	arch/arm32/include/arm32.h	/^static inline void arm32_interrupt_enable(void)$/;"	f
+arm32_mmu_disable	arch/arm32/include/arm32.h	/^static inline void arm32_mmu_disable(void)$/;"	f
+arm32_mmu_enable	arch/arm32/include/arm32.h	/^static inline void arm32_mmu_enable(void)$/;"	f
+arm32_read_p15_c1	arch/arm32/include/arm32.h	/^static inline uint32_t arm32_read_p15_c1(void)$/;"	f
+arm32_smp_processor_id	arch/arm32/include/arm32.h	/^static inline uint32_t arm32_smp_processor_id(void)$/;"	f
+arm32_tlb_invalidate	arch/arm32/include/arm32.h	/^static inline void arm32_tlb_invalidate(void)$/;"	f
+arm32_ttb_set	arch/arm32/include/arm32.h	/^static inline void arm32_ttb_set(uint32_t base)$/;"	f
+arm32_write_p15_c1	arch/arm32/include/arm32.h	/^static inline void arm32_write_p15_c1(uint32_t value)$/;"	f
+arm_regs_t	machine/exception.c	/^struct arm_regs_t {$/;"	s	file:
+atomic_add	arch/arm32/include/atomic.h	/^static inline void atomic_add(atomic_t * a, long v)$/;"	f
+atomic_add_negative	arch/arm32/include/atomic.h	132;"	d
+atomic_add_return	arch/arm32/include/atomic.h	/^static inline long atomic_add_return(atomic_t * a, long v)$/;"	f
+atomic_dec	arch/arm32/include/atomic.h	127;"	d
+atomic_dec_and_test	arch/arm32/include/atomic.h	131;"	d
+atomic_dec_return	arch/arm32/include/atomic.h	129;"	d
+atomic_inc	arch/arm32/include/atomic.h	126;"	d
+atomic_inc_and_test	arch/arm32/include/atomic.h	130;"	d
+atomic_inc_return	arch/arm32/include/atomic.h	128;"	d
+atomic_set	arch/arm32/include/atomic.h	125;"	d
+atomic_sub	arch/arm32/include/atomic.h	/^static inline void atomic_sub(atomic_t * a, long v)$/;"	f
+atomic_sub_and_test	arch/arm32/include/atomic.h	133;"	d
+atomic_sub_return	arch/arm32/include/atomic.h	/^static inline long atomic_sub_return(atomic_t * a, long v)$/;"	f
+atomic_t	arch/arm32/include/types.h	/^} atomic_t;$/;"	t	typeref:struct:__anon4
+atomic_t	machine/include/core_types.h	/^} atomic_t;$/;"	t	typeref:struct:__anon8
+backcolor	machine/include/f1c100s/reg-debe.h	/^	u32_t backcolor;				\/* 0x804 *\/$/;"	m	struct:f1c100s_debe_reg_t
+backlight	driver/fb-f1c100s.c	/^	pwm_t * backlight;$/;"	m	struct:__anon14	file:
+bank_size	machine/sys-dram.c	/^	uint32_t bank_size;		\/* dram bank count *\/$/;"	m	struct:dram_para_t	file:
+base	driver/include/gpio-f1c100s.h	/^	int32_t base;$/;"	m	struct:__anon25
+base	driver/include/reset-f1c100s.h	/^	int32_t base;$/;"	m	struct:reset_f1c100s_st
+base	driver/irq-f1c100s-gpio.c	/^	int base;$/;"	m	struct:irq_f1c100s_gpio_pdata_t	file:
+base	driver/irq-f1c100s.c	/^	int base;$/;"	m	struct:irq_f1c100s_pdata_t	file:
+base	machine/sys-dram.c	/^	uint32_t base;				\/* dram base address *\/$/;"	m	struct:dram_para_t	file:
+baud	driver/uart-16550.c	/^	int baud;$/;"	m	struct:uart_16550_pdata_t	file:
+bits_per_pixel	driver/fb-f1c100s.c	/^	int32_t bits_per_pixel;$/;"	m	struct:__anon14	file:
+block_absorb	lib/malloc.c	/^static block_header_t * block_absorb(block_header_t * prev, block_header_t * block)$/;"	f	file:
+block_can_split	lib/malloc.c	/^static int block_can_split(block_header_t * block, size_t size)$/;"	f	file:
+block_from_ptr	lib/malloc.c	/^static block_header_t * block_from_ptr(const void * ptr)$/;"	f	file:
+block_get_size	lib/malloc.c	/^static size_t block_get_size(const block_header_t * block)$/;"	f	file:
+block_header_free_bit	lib/malloc.c	/^static const size_t block_header_free_bit = 1 << 0;$/;"	v	file:
+block_header_overhead	lib/malloc.c	/^static const size_t block_header_overhead = sizeof(size_t);$/;"	v	file:
+block_header_prev_free_bit	lib/malloc.c	/^static const size_t block_header_prev_free_bit = 1 << 1;$/;"	v	file:
+block_header_t	lib/malloc.c	/^typedef struct block_header_t$/;"	s	file:
+block_header_t	lib/malloc.c	/^} block_header_t;$/;"	t	typeref:struct:block_header_t	file:
+block_insert	lib/malloc.c	/^static void block_insert(control_t * control, block_header_t * block)$/;"	f	file:
+block_is_free	lib/malloc.c	/^static int block_is_free(const block_header_t * block)$/;"	f	file:
+block_is_last	lib/malloc.c	/^static int block_is_last(const block_header_t * block)$/;"	f	file:
+block_is_prev_free	lib/malloc.c	/^static int block_is_prev_free(const block_header_t * block)$/;"	f	file:
+block_link_next	lib/malloc.c	/^static block_header_t * block_link_next(block_header_t * block)$/;"	f	file:
+block_locate_free	lib/malloc.c	/^static block_header_t * block_locate_free(control_t * control, size_t size)$/;"	f	file:
+block_mark_as_free	lib/malloc.c	/^static void block_mark_as_free(block_header_t * block)$/;"	f	file:
+block_mark_as_used	lib/malloc.c	/^static void block_mark_as_used(block_header_t * block)$/;"	f	file:
+block_merge_next	lib/malloc.c	/^static block_header_t * block_merge_next(control_t * control, block_header_t * block)$/;"	f	file:
+block_merge_prev	lib/malloc.c	/^static block_header_t * block_merge_prev(control_t * control, block_header_t * block)$/;"	f	file:
+block_next	lib/malloc.c	/^static block_header_t * block_next(const block_header_t * block)$/;"	f	file:
+block_null	lib/malloc.c	/^	block_header_t block_null;$/;"	m	struct:control_t	file:
+block_prepare_used	lib/malloc.c	/^static void * block_prepare_used(control_t * control, block_header_t * block, size_t size)$/;"	f	file:
+block_prev	lib/malloc.c	/^static block_header_t * block_prev(const block_header_t * block)$/;"	f	file:
+block_remove	lib/malloc.c	/^static void block_remove(control_t * control, block_header_t * block)$/;"	f	file:
+block_set_free	lib/malloc.c	/^static void block_set_free(block_header_t * block)$/;"	f	file:
+block_set_prev_free	lib/malloc.c	/^static void block_set_prev_free(block_header_t * block)$/;"	f	file:
+block_set_prev_used	lib/malloc.c	/^static void block_set_prev_used(block_header_t * block)$/;"	f	file:
+block_set_size	lib/malloc.c	/^static void block_set_size(block_header_t * block, size_t size)$/;"	f	file:
+block_set_used	lib/malloc.c	/^static void block_set_used(block_header_t * block)$/;"	f	file:
+block_size_max	lib/malloc.c	/^static const size_t block_size_max = tlsf_cast(size_t, 1) << FL_INDEX_MAX;$/;"	v	file:
+block_size_min	lib/malloc.c	/^static const size_t block_size_min = sizeof(block_header_t) - sizeof(block_header_t *);$/;"	v	file:
+block_split	lib/malloc.c	/^static block_header_t * block_split(block_header_t * block, size_t size)$/;"	f	file:
+block_start_offset	lib/malloc.c	/^static const size_t block_start_offset = offsetof(block_header_t, size) + sizeof(size_t);$/;"	v	file:
+block_to_ptr	lib/malloc.c	/^static void * block_to_ptr(const block_header_t * block)$/;"	f	file:
+block_trim_free	lib/malloc.c	/^static void block_trim_free(control_t * control, block_header_t * block, size_t size)$/;"	f	file:
+block_trim_free_leading	lib/malloc.c	/^static block_header_t * block_trim_free_leading(control_t * control, block_header_t * block, size_t size)$/;"	f	file:
+block_trim_used	lib/malloc.c	/^static void block_trim_used(control_t * control, block_header_t * block, size_t size)$/;"	f	file:
+blocks	lib/malloc.c	/^	block_header_t * blocks[FL_INDEX_COUNT][SL_INDEX_COUNT];$/;"	m	struct:control_t	file:
+bool_t	arch/arm32/include/types.h	/^typedef signed int				bool_t;$/;"	t
+bool_t	machine/include/core_types.h	/^typedef signed int				bool_t;$/;"	t
+boot_head_t	tools/mksunxi/mksunxi.c	/^struct boot_head_t {$/;"	s	file:
+boot_main	main.c	/^int boot_main(int argc, char **argv) {$/;"	f
+boot_media	tools/mksunxi/mksunxi.c	/^	uint32_t boot_media;$/;"	m	struct:boot_head_t	file:
+bootlinux_cmd_exit	arch/arm32/lib/cpu/cmd-bootlinux.c	/^command_exitcall(bootlinux_cmd_exit);$/;"	v
+bootlinux_cmd_exit	arch/arm32/lib/cpu/cmd-bootlinux.c	/^static __exit void bootlinux_cmd_exit(void)$/;"	f	file:
+bootlinux_cmd_init	arch/arm32/lib/cpu/cmd-bootlinux.c	/^command_initcall(bootlinux_cmd_init);$/;"	v
+bootlinux_cmd_init	arch/arm32/lib/cpu/cmd-bootlinux.c	/^static __init void bootlinux_cmd_init(void)$/;"	f	file:
+bpp	driver/include/framebuffer.h	/^	int32_t bpp;$/;"	m	struct:framebuffer_st
+brightness	driver/fb-f1c100s.c	/^	int32_t brightness;$/;"	m	struct:__anon14	file:
+bwidth	machine/sys-dram.c	/^	uint32_t bwidth;			\/* dram bus width *\/$/;"	m	struct:dram_para_t	file:
+bypass	machine/include/f1c100s/reg-defe.h	/^	u32_t bypass;					\/* 0x008 *\/$/;"	m	struct:f1c100s_defe_reg_t
+bytes_per_pixel	driver/fb-f1c100s.c	/^	int32_t bytes_per_pixel;$/;"	m	struct:__anon14	file:
+cache_clean_range	arch/arm32/lib/cpu/cache.c	/^static inline void cache_clean_range(unsigned long start, unsigned long end)$/;"	f	file:
+cache_flush_range	arch/arm32/lib/cpu/cache.c	/^static inline void cache_flush_range(unsigned long start, unsigned long end)$/;"	f	file:
+cache_inv_range	arch/arm32/lib/cpu/cache.c	/^static inline void cache_inv_range(unsigned long start, unsigned long end)$/;"	f	file:
+calloc	lib/malloc.c	/^EXPORT_SYMBOL(calloc);$/;"	v
+calloc	lib/malloc.c	/^void * calloc(size_t nmemb, size_t size)$/;"	f
+cas	machine/sys-dram.c	/^	uint32_t cas;				\/* dram cas *\/$/;"	m	struct:dram_para_t	file:
+ccnt_disable	arch/arm32/include/pmu.h	/^static inline void ccnt_disable(void)$/;"	f
+ccnt_divider	arch/arm32/include/pmu.h	/^static inline void ccnt_divider(int divider)$/;"	f
+ccnt_enable	arch/arm32/include/pmu.h	/^static inline void ccnt_enable(void)$/;"	f
+ccnt_irq_disable	arch/arm32/include/pmu.h	/^static inline void ccnt_irq_disable(void)$/;"	f
+ccnt_irq_enable	arch/arm32/include/pmu.h	/^static inline void ccnt_irq_enable(void)$/;"	f
+ccnt_read	arch/arm32/include/pmu.h	/^static inline uint32_t ccnt_read(void)$/;"	f
+ccnt_reset	arch/arm32/include/pmu.h	/^static inline void ccnt_reset(void)$/;"	f
+ce_f1c100s_timer	driver/ce-f1c100s-timer.c	/^static struct driver_t ce_f1c100s_timer = {$/;"	v	typeref:struct:driver_t	file:
+ce_f1c100s_timer_driver_exit	driver/ce-f1c100s-timer.c	/^driver_exitcall(ce_f1c100s_timer_driver_exit);$/;"	v
+ce_f1c100s_timer_driver_exit	driver/ce-f1c100s-timer.c	/^static __exit void ce_f1c100s_timer_driver_exit(void)$/;"	f	file:
+ce_f1c100s_timer_driver_init	driver/ce-f1c100s-timer.c	/^driver_initcall(ce_f1c100s_timer_driver_init);$/;"	v
+ce_f1c100s_timer_driver_init	driver/ce-f1c100s-timer.c	/^static __init void ce_f1c100s_timer_driver_init(void)$/;"	f	file:
+ce_f1c100s_timer_interrupt	driver/ce-f1c100s-timer.c	/^static void ce_f1c100s_timer_interrupt(void * data)$/;"	f	file:
+ce_f1c100s_timer_next	driver/ce-f1c100s-timer.c	/^static bool_t ce_f1c100s_timer_next(struct clockevent_t * ce, u64_t evt)$/;"	f	file:
+ce_f1c100s_timer_pdata_t	driver/ce-f1c100s-timer.c	/^struct ce_f1c100s_timer_pdata_t$/;"	s	file:
+ce_f1c100s_timer_probe	driver/ce-f1c100s-timer.c	/^static struct device_t * ce_f1c100s_timer_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+ce_f1c100s_timer_remove	driver/ce-f1c100s-timer.c	/^static void ce_f1c100s_timer_remove(struct device_t * dev)$/;"	f	file:
+ce_f1c100s_timer_resume	driver/ce-f1c100s-timer.c	/^static void ce_f1c100s_timer_resume(struct device_t * dev)$/;"	f	file:
+ce_f1c100s_timer_suspend	driver/ce-f1c100s-timer.c	/^static void ce_f1c100s_timer_suspend(struct device_t * dev)$/;"	f	file:
+ch0_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_addr;					\/* 0x020 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horzcoef0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horzcoef0[32];		\/* 0x400 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horzcoef1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horzcoef1[32];		\/* 0x480 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horzfact	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horzfact;				\/* 0x108 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horzphase	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horzphase;			\/* 0x110 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horztapoffset0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horztapoffset0;		\/* 0x120 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_horztapoffset1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_horztapoffset1;		\/* 0x124 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_insize	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_insize;				\/* 0x100 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_offset;				\/* 0x030 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_outsize	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_outsize;				\/* 0x104 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_stride;				\/* 0x040 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_vertcoef	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_vertcoef[32];			\/* 0x500 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_vertfact	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_vertfact;				\/* 0x10c *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_vertphase0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_vertphase0;			\/* 0x114 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_vertphase1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_vertphase1;			\/* 0x118 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch0_verttapoffset	machine/include/f1c100s/reg-defe.h	/^	u32_t ch0_verttapoffset;		\/* 0x128 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_addr;					\/* 0x024 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horzcoef0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horzcoef0[32];		\/* 0x600 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horzcoef1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horzcoef1[32];		\/* 0x680 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horzfact	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horzfact;				\/* 0x208 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horzphase	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horzphase;			\/* 0x210 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horztapoffset0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horztapoffset0;		\/* 0x220 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_horztapoffset1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_horztapoffset1;		\/* 0x224 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_insize	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_insize;				\/* 0x200 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_offset;				\/* 0x034 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_outsize	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_outsize;				\/* 0x204 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_stride;				\/* 0x044 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_vertcoef	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_vertcoef[32];			\/* 0x700 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_vertfact	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_vertfact;				\/* 0x20c *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_vertphase0	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_vertphase0;			\/* 0x214 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_vertphase1	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_vertphase1;			\/* 0x218 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch1_verttapoffset	machine/include/f1c100s/reg-defe.h	/^	u32_t ch1_verttapoffset;		\/* 0x228 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch2_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch2_addr;					\/* 0x028 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch2_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t ch2_offset;				\/* 0x038 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch2_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch2_stride;				\/* 0x048 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch3_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch3_addr;					\/* 0x050 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch3_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch3_stride;				\/* 0x0d4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch4_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch4_addr;					\/* 0x054 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch4_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch4_stride;				\/* 0x0d8 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch5_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t ch5_addr;					\/* 0x058 *\/$/;"	m	struct:f1c100s_defe_reg_t
+ch5_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t ch5_stride;				\/* 0x0dc *\/$/;"	m	struct:f1c100s_defe_reg_t
+channel	driver/include/clk-f1c100s-pll.h	/^	int32_t channel;$/;"	m	struct:clk_pll_st
+channel	driver/include/pwm-f1c100s.h	/^	int32_t channel;$/;"	m	struct:__anon20
+checksum	tools/mksunxi/mksunxi.c	/^	uint32_t checksum;$/;"	m	struct:boot_head_t	file:
+clk	driver/ce-f1c100s-timer.c	/^	char * clk;$/;"	m	struct:ce_f1c100s_timer_pdata_t	file:
+clk	driver/cs-f1c100s-timer.c	/^	char * clk;$/;"	m	struct:cs_f1c100s_timer_pdata_t	file:
+clk	driver/i2c-f1c100s.c	/^	char * clk;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+clk	driver/include/pwm-f1c100s.h	/^	char * clk;$/;"	m	struct:__anon20
+clk	driver/spi-f1c100s.c	/^	char * clk;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+clk	driver/uart-16550.c	/^	char * clk;$/;"	m	struct:uart_16550_pdata_t	file:
+clk	driver/wdog-f1c100s.c	/^	char * clk;$/;"	m	struct:wdog_f1c100s_pdata_t	file:
+clk	machine/sys-dram.c	/^	uint32_t clk;				\/* dram work clock (unit: MHz) *\/$/;"	m	struct:dram_para_t	file:
+clk_active	driver/fb-f1c100s.c	/^		int32_t clk_active;$/;"	m	struct:__anon14::__anon15	file:
+clk_divider_set_rate	driver/fb-f1c100s.c	/^static void clk_divider_set_rate(virtual_addr_t virt, uint32_t width, uint32_t shift, bool onebased, uint64_t prate, uint64_t rate)$/;"	f	file:
+clk_f1c100s_pll_get_enable	driver/clk-f1c100s-pll.c	/^bool clk_f1c100s_pll_get_enable(clk_pll_t * clk_pll)$/;"	f
+clk_f1c100s_pll_get_parent	driver/clk-f1c100s-pll.c	/^const clk_pll_t* clk_f1c100s_pll_get_parent(clk_pll_t * clk_pll)$/;"	f
+clk_f1c100s_pll_get_rate	driver/clk-f1c100s-pll.c	/^uint64_t clk_f1c100s_pll_get_rate(clk_pll_t * clk_pll, uint64_t prate)$/;"	f
+clk_f1c100s_pll_set_enable	driver/clk-f1c100s-pll.c	/^void clk_f1c100s_pll_set_enable(clk_pll_t * clk_pll, bool enable)$/;"	f
+clk_f1c100s_pll_set_parent	driver/clk-f1c100s-pll.c	/^void clk_f1c100s_pll_set_parent(clk_pll_t * clk_pll, const char * pname)$/;"	f
+clk_f1c100s_pll_set_rate	driver/clk-f1c100s-pll.c	/^void clk_f1c100s_pll_set_rate(clk_pll_t * clk_pll, uint64_t prate, uint64_t rate)$/;"	f
+clk_hosc	driver/clk-f1c100s-pll.c	/^const clk_pll_t clk_hosc = $/;"	v
+clk_mux_set_parent	driver/fb-f1c100s.c	/^static void clk_mux_set_parent(virtual_addr_t virt, uint32_t width, uint32_t shift, uint32_t parent_val)$/;"	f	file:
+clk_pll_st	driver/include/clk-f1c100s-pll.h	/^typedef struct clk_pll_st {$/;"	s
+clk_pll_t	driver/include/clk-f1c100s-pll.h	/^}clk_pll_t;$/;"	t	typeref:struct:clk_pll_st
+clk_pll_video	driver/fb-f1c100s.c	/^static clk_pll_t clk_pll_video = $/;"	v	file:
+clkdebe	driver/fb-f1c100s.c	/^	char * clkdebe;$/;"	m	struct:__anon14	file:
+clkdefe	driver/fb-f1c100s.c	/^	char * clkdefe;$/;"	m	struct:__anon14	file:
+clktcon	driver/fb-f1c100s.c	/^	char * clktcon;$/;"	m	struct:__anon14	file:
+clock_set_pll_cpu	machine/sys-clock.c	/^static void clock_set_pll_cpu(uint32_t clk)$/;"	f	file:
+cmd_bootlinux	arch/arm32/lib/cpu/cmd-bootlinux.c	/^static struct command_t cmd_bootlinux = {$/;"	v	typeref:struct:command_t	file:
+cmd_cpuinfo	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static struct command_t cmd_cpuinfo = {$/;"	v	typeref:struct:command_t	file:
+cmd_mmuinfo	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static struct command_t cmd_mmuinfo = {$/;"	v	typeref:struct:command_t	file:
+col_width	machine/sys-dram.c	/^	uint32_t col_width;		\/* column address width *\/$/;"	m	struct:dram_para_t	file:
+color_key_config	machine/include/f1c100s/reg-debe.h	/^	u32_t color_key_config;			\/* 0x888 *\/$/;"	m	struct:f1c100s_debe_reg_t
+color_key_max	machine/include/f1c100s/reg-debe.h	/^	u32_t color_key_max;			\/* 0x880 *\/$/;"	m	struct:f1c100s_debe_reg_t
+color_key_min	machine/include/f1c100s/reg-debe.h	/^	u32_t color_key_min;			\/* 0x884 *\/$/;"	m	struct:f1c100s_debe_reg_t
+compile_c	Makefile	/^define compile_c$/;"	m
+control_construct	lib/malloc.c	/^static void control_construct(control_t * control)$/;"	f	file:
+control_t	lib/malloc.c	/^typedef struct control_t$/;"	s	file:
+control_t	lib/malloc.c	/^} control_t;$/;"	t	typeref:struct:control_t	file:
+counter	arch/arm32/include/types.h	/^	volatile long counter;$/;"	m	struct:__anon4
+counter	machine/include/core_types.h	/^	volatile long counter;$/;"	m	struct:__anon8
+cpsr	machine/exception.c	/^	uint32_t cpsr;$/;"	m	struct:arm_regs_t	file:
+cpu_profiler_read	arch/arm32/lib/cpu/cpu-profiler.c	/^uint64_t cpu_profiler_read(int event, int data)$/;"	f
+cpu_profiler_reset	arch/arm32/lib/cpu/cpu-profiler.c	/^void cpu_profiler_reset(void)$/;"	f
+cpu_profiler_start	arch/arm32/lib/cpu/cpu-profiler.c	/^void cpu_profiler_start(int event, int data)$/;"	f
+cpu_profiler_stop	arch/arm32/lib/cpu/cpu-profiler.c	/^void cpu_profiler_stop(int event, int data)$/;"	f
+cpu_to_le32	tools/mksunxi/mksunxi.c	16;"	d	file:
+cpuinfo_cmd_exit	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^command_exitcall(cpuinfo_cmd_exit);$/;"	v
+cpuinfo_cmd_exit	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static __exit void cpuinfo_cmd_exit(void)$/;"	f	file:
+cpuinfo_cmd_init	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^command_initcall(cpuinfo_cmd_init);$/;"	v
+cpuinfo_cmd_init	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static __init void cpuinfo_cmd_init(void)$/;"	f	file:
+crbits	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static char * crbits[] = {"M", "A", "C", "W", "P", "D", "L", "B", "S", "R",$/;"	v	file:
+cs	driver/spi-f1c100s.c	/^	int cs;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+cs_f1c100s_timer	driver/cs-f1c100s-timer.c	/^static struct driver_t cs_f1c100s_timer = {$/;"	v	typeref:struct:driver_t	file:
+cs_f1c100s_timer_driver_exit	driver/cs-f1c100s-timer.c	/^driver_exitcall(cs_f1c100s_timer_driver_exit);$/;"	v
+cs_f1c100s_timer_driver_exit	driver/cs-f1c100s-timer.c	/^static __exit void cs_f1c100s_timer_driver_exit(void)$/;"	f	file:
+cs_f1c100s_timer_driver_init	driver/cs-f1c100s-timer.c	/^driver_initcall(cs_f1c100s_timer_driver_init);$/;"	v
+cs_f1c100s_timer_driver_init	driver/cs-f1c100s-timer.c	/^static __init void cs_f1c100s_timer_driver_init(void)$/;"	f	file:
+cs_f1c100s_timer_pdata_t	driver/cs-f1c100s-timer.c	/^struct cs_f1c100s_timer_pdata_t$/;"	s	file:
+cs_f1c100s_timer_probe	driver/cs-f1c100s-timer.c	/^static struct device_t * cs_f1c100s_timer_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+cs_f1c100s_timer_read	driver/cs-f1c100s-timer.c	/^static u64_t cs_f1c100s_timer_read(struct clocksource_t * cs)$/;"	f	file:
+cs_f1c100s_timer_remove	driver/cs-f1c100s-timer.c	/^static void cs_f1c100s_timer_remove(struct device_t * dev)$/;"	f	file:
+cs_f1c100s_timer_resume	driver/cs-f1c100s-timer.c	/^static void cs_f1c100s_timer_resume(struct device_t * dev)$/;"	f	file:
+cs_f1c100s_timer_suspend	driver/cs-f1c100s-timer.c	/^static void cs_f1c100s_timer_suspend(struct device_t * dev)$/;"	f	file:
+cs_num	machine/sys-dram.c	/^	uint32_t cs_num;			\/* dram chip count  1: one chip  2: two chip *\/$/;"	m	struct:dram_para_t	file:
+csc_coef00	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef00;				\/* 0x070 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef01	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef01;				\/* 0x074 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef02	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef02;				\/* 0x078 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef03	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef03;				\/* 0x07c *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef10	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef10;				\/* 0x080 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef11	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef11;				\/* 0x084 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef12	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef12;				\/* 0x088 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef13	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef13;				\/* 0x08c *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef20	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef20;				\/* 0x090 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef21	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef21;				\/* 0x094 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef22	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef22;				\/* 0x098 *\/$/;"	m	struct:f1c100s_defe_reg_t
+csc_coef23	machine/include/f1c100s/reg-defe.h	/^	u32_t csc_coef23;				\/* 0x09c *\/$/;"	m	struct:f1c100s_defe_reg_t
+cscfg	driver/spi-f1c100s.c	/^	int cscfg;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+ctrl	machine/include/f1c100s/reg-tcon.h	/^	u32_t ctrl;					\/* 0x00 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+data	driver/uart-16550.c	/^	int data;$/;"	m	struct:uart_16550_pdata_t	file:
+data_abort	machine/start.S	/^data_abort:$/;"	l
+ddr8_remap	machine/sys-dram.c	/^	uint32_t ddr8_remap;		\/* for 8bits data width DDR 0: normal  1: 8bits *\/$/;"	m	struct:dram_para_t	file:
+decode_cache	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static void decode_cache(unsigned long size)$/;"	f	file:
+decode_par	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static void decode_par(unsigned long par)$/;"	f	file:
+deinterlace_burstlen	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_burstlen;		\/* 0x0b4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_ctrl	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_ctrl;			\/* 0x0a0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_diag	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_diag;			\/* 0x0a4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_preluma	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_preluma;		\/* 0x0b8 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_sawtooth	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_sawtooth;		\/* 0x0ac *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_spatcomp	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_spatcomp;		\/* 0x0b0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_tempdiff	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_tempdiff;		\/* 0x0a8 *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_tile_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_tile_addr;	\/* 0x0bc *\/$/;"	m	struct:f1c100s_defe_reg_t
+deinterlace_tile_stride	machine/include/f1c100s/reg-defe.h	/^	u32_t deinterlace_tile_stride;	\/* 0x0c0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+den_active	driver/fb-f1c100s.c	/^		int32_t den_active;$/;"	m	struct:__anon14::__anon15	file:
+disp_size	machine/include/f1c100s/reg-debe.h	/^	u32_t disp_size;				\/* 0x808 *\/$/;"	m	struct:f1c100s_debe_reg_t
+dma_alloc_coherent	lib/dma.c	/^void * dma_alloc_coherent(unsigned long size)$/;"	f
+dma_alloc_noncoherent	lib/dma.c	/^void * dma_alloc_noncoherent(unsigned long size)$/;"	f
+dma_cache_sync	arch/arm32/lib/cpu/cache.c	/^void dma_cache_sync(void * addr, unsigned long size, int dir)$/;"	f
+dma_free_coherent	lib/dma.c	/^void dma_free_coherent(void * addr)$/;"	f
+dma_free_noncoherent	lib/dma.c	/^void dma_free_noncoherent(void * addr)$/;"	f
+dmb	arch/arm32/include/barrier.h	11;"	d
+dmb	arch/arm32/include/barrier.h	15;"	d
+dmb	arch/arm32/include/barrier.h	19;"	d
+do_bootlinux	arch/arm32/lib/cpu/cmd-bootlinux.c	/^static int do_bootlinux(int argc, char ** argv)$/;"	f	file:
+do_cpuinfo	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static int do_cpuinfo(int argc, char ** argv)$/;"	f	file:
+do_init_dma_pool	lib/dma.c	/^void do_init_dma_pool(void)$/;"	f
+do_init_mem_pool	lib/malloc.c	/^void do_init_mem_pool(void)$/;"	f
+do_mmuinfo	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static int do_mmuinfo(int argc, char ** argv)$/;"	f	file:
+dram_check_delay	machine/sys-dram.c	/^static uint32_t dram_check_delay(uint32_t bwidth)$/;"	f	file:
+dram_check_type	machine/sys-dram.c	/^static uint32_t dram_check_type(struct dram_para_t * para)$/;"	f	file:
+dram_delay	machine/sys-dram.c	/^static void dram_delay(int ms)$/;"	f	file:
+dram_delay_scan	machine/sys-dram.c	/^static int dram_delay_scan(void)$/;"	f	file:
+dram_get_dram_size	machine/sys-dram.c	/^static uint32_t dram_get_dram_size(struct dram_para_t * para)$/;"	f	file:
+dram_init	machine/sys-dram.c	/^static int dram_init(struct dram_para_t * para)$/;"	f	file:
+dram_initial	machine/sys-dram.c	/^static int dram_initial(void)$/;"	f	file:
+dram_para_setup	machine/sys-dram.c	/^static int dram_para_setup(struct dram_para_t * para)$/;"	f	file:
+dram_para_t	machine/sys-dram.c	/^struct dram_para_t$/;"	s	file:
+dram_scan_readpipe	machine/sys-dram.c	/^static uint32_t dram_scan_readpipe(struct dram_para_t * para)$/;"	f	file:
+dram_set_autofresh_cycle	machine/sys-dram.c	/^static void dram_set_autofresh_cycle(uint32_t clk)$/;"	f	file:
+dram_type_t	machine/sys-dram.c	/^enum dram_type_t$/;"	g	file:
+dsb	arch/arm32/include/barrier.h	10;"	d
+dsb	arch/arm32/include/barrier.h	14;"	d
+dsb	arch/arm32/include/barrier.h	18;"	d
+dt_name_offset	tools/mksunxi/mksunxi.c	/^	uint32_t dt_name_offset;$/;"	m	struct:boot_head_t	file:
+duty	driver/include/pwm-f1c100s.h	/^	int32_t duty;$/;"	m	struct:__anon20
+enable	machine/include/f1c100s/reg-defe.h	/^	u32_t enable;					\/* 0x000 *\/$/;"	m	struct:f1c100s_defe_reg_t
+f1c100s_clk_debe_disable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_debe_disable()$/;"	f	file:
+f1c100s_clk_debe_enable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_debe_enable()$/;"	f	file:
+f1c100s_clk_debe_init	driver/fb-f1c100s.c	/^static void f1c100s_clk_debe_init(void)$/;"	f	file:
+f1c100s_clk_defe_disable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_defe_disable()$/;"	f	file:
+f1c100s_clk_defe_enable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_defe_enable()$/;"	f	file:
+f1c100s_clk_defe_init	driver/fb-f1c100s.c	/^static void f1c100s_clk_defe_init(void)$/;"	f	file:
+f1c100s_clk_pll_video_set_enable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_pll_video_set_enable(bool enable)$/;"	f	file:
+f1c100s_clk_tcon_disable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_tcon_disable()$/;"	f	file:
+f1c100s_clk_tcon_enable	driver/fb-f1c100s.c	/^inline static void f1c100s_clk_tcon_enable()$/;"	f	file:
+f1c100s_debe_reg_t	machine/include/f1c100s/reg-debe.h	/^struct f1c100s_debe_reg_t {$/;"	s
+f1c100s_debe_set_address	driver/fb-f1c100s.c	/^inline static void f1c100s_debe_set_address(fb_f1c100s_pdata_t * pdat, void * vram)$/;"	f	file:
+f1c100s_debe_set_mode	driver/fb-f1c100s.c	/^inline static void f1c100s_debe_set_mode(fb_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_defe_reg_t	machine/include/f1c100s/reg-defe.h	/^struct f1c100s_defe_reg_t {$/;"	s
+f1c100s_i2c_read	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_read(struct i2c_f1c100s_pdata_t * pdat, struct i2c_msg_t * msg)$/;"	f	file:
+f1c100s_i2c_send_data	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_send_data(struct i2c_f1c100s_pdata_t * pdat, u8_t dat)$/;"	f	file:
+f1c100s_i2c_set_rate	driver/i2c-f1c100s.c	/^static void f1c100s_i2c_set_rate(struct i2c_f1c100s_pdata_t * pdat, u64_t rate)$/;"	f	file:
+f1c100s_i2c_start	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_start(struct i2c_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_i2c_stop	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_stop(struct i2c_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_i2c_wait_status	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_wait_status(struct i2c_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_i2c_write	driver/i2c-f1c100s.c	/^static int f1c100s_i2c_write(struct i2c_f1c100s_pdata_t * pdat, struct i2c_msg_t * msg)$/;"	f	file:
+f1c100s_spi_enable_chip	driver/spi-f1c100s.c	/^static void f1c100s_spi_enable_chip(struct spi_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_spi_set_mode	driver/spi-f1c100s.c	/^static void f1c100s_spi_set_mode(struct spi_f1c100s_pdata_t * pdat, int mode)$/;"	f	file:
+f1c100s_spi_set_rate	driver/spi-f1c100s.c	/^static void f1c100s_spi_set_rate(struct spi_f1c100s_pdata_t * pdat, u64_t rate)$/;"	f	file:
+f1c100s_spi_write_txbuf	driver/spi-f1c100s.c	/^static void f1c100s_spi_write_txbuf(struct spi_f1c100s_pdata_t * pdat, u8_t * buf, int len)$/;"	f	file:
+f1c100s_spi_xfer	driver/spi-f1c100s.c	/^static int f1c100s_spi_xfer(struct spi_f1c100s_pdata_t * pdat, struct spi_msg_t * msg)$/;"	f	file:
+f1c100s_tcon_clk_get_rate	driver/fb-f1c100s.c	/^inline static uint64_t f1c100s_tcon_clk_get_rate()$/;"	f	file:
+f1c100s_tcon_disable	driver/fb-f1c100s.c	/^inline static void f1c100s_tcon_disable(fb_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_tcon_enable	driver/fb-f1c100s.c	/^inline static void f1c100s_tcon_enable(fb_f1c100s_pdata_t * pdat)$/;"	f	file:
+f1c100s_tcon_reg_t	machine/include/f1c100s/reg-tcon.h	/^struct f1c100s_tcon_reg_t {$/;"	s
+f1c100s_tcon_set_mode	driver/fb-f1c100s.c	/^inline static void f1c100s_tcon_set_mode(fb_f1c100s_pdata_t * pdat)$/;"	f	file:
+fb_f1c100s_cfg_gpios	driver/fb-f1c100s.c	/^inline static void fb_f1c100s_cfg_gpios(const gpio_port_t* port, int32_t pin_start, int32_t pin_end, int32_t cfg, gpio_pull_t pull, gpio_drv_t drv)$/;"	f	file:
+fb_f1c100s_create	driver/fb-f1c100s.c	/^render_t * fb_f1c100s_create(framebuffer_t * fb)$/;"	f
+fb_f1c100s_destroy	driver/fb-f1c100s.c	/^void fb_f1c100s_destroy(framebuffer_t * fb, render_t * render)$/;"	f
+fb_f1c100s_getbl	driver/fb-f1c100s.c	/^int32_t fb_f1c100s_getbl(framebuffer_t * fb)$/;"	f
+fb_f1c100s_init	driver/fb-f1c100s.c	/^void fb_f1c100s_init(framebuffer_t * fb)$/;"	f
+fb_f1c100s_init_hw	driver/fb-f1c100s.c	/^static void fb_f1c100s_init_hw(fb_f1c100s_pdata_t * pdat)$/;"	f	file:
+fb_f1c100s_pData	driver/fb-f1c100s.c	/^fb_f1c100s_pdata_t fb_f1c100s_pData;$/;"	v
+fb_f1c100s_pdata_t	driver/fb-f1c100s.c	/^}fb_f1c100s_pdata_t;$/;"	t	typeref:struct:__anon14	file:
+fb_f1c100s_present	driver/fb-f1c100s.c	/^void fb_f1c100s_present(framebuffer_t * fb, render_t * render)$/;"	f
+fb_f1c100s_remove	driver/fb-f1c100s.c	/^void fb_f1c100s_remove(framebuffer_t * fb)$/;"	f
+fb_f1c100s_resume	driver/fb-f1c100s.c	/^void fb_f1c100s_resume(framebuffer_t * fb)$/;"	f
+fb_f1c100s_setbl	driver/fb-f1c100s.c	/^void fb_f1c100s_setbl(framebuffer_t * fb, int32_t brightness)$/;"	f
+fb_f1c100s_suspend	driver/fb-f1c100s.c	/^void fb_f1c100s_suspend(framebuffer_t * fb)$/;"	f
+fe_3d_ch0_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch0_addr;			\/* 0x0e4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ch0_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch0_offset;			\/* 0x0f0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ch1_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch1_addr;			\/* 0x0e8 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ch1_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch1_offset;			\/* 0x0f4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ch2_addr	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch2_addr;			\/* 0x0ec *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ch2_offset	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ch2_offset;			\/* 0x0f8 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fe_3d_ctrl	machine/include/f1c100s/reg-defe.h	/^	u32_t fe_3d_ctrl;				\/* 0x0e0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+fel_script_address	tools/mksunxi/mksunxi.c	/^	uint32_t fel_script_address;$/;"	m	struct:boot_head_t	file:
+fel_uenv_length	tools/mksunxi/mksunxi.c	/^	uint32_t fel_uenv_length;$/;"	m	struct:boot_head_t	file:
+field_sequence	machine/include/f1c100s/reg-defe.h	/^	u32_t field_sequence;			\/* 0x02c *\/$/;"	m	struct:f1c100s_defe_reg_t
+fiq	machine/start.S	/^fiq:$/;"	l
+fl_bitmap	lib/malloc.c	/^	unsigned int fl_bitmap;$/;"	m	struct:control_t	file:
+format	driver/include/framebuffer.h	/^	pixel_format_t format;$/;"	m	struct:render_st
+frame_ctrl	machine/include/f1c100s/reg-defe.h	/^	u32_t frame_ctrl;				\/* 0x004 *\/$/;"	m	struct:f1c100s_defe_reg_t
+framebuffer_st	driver/include/framebuffer.h	/^typedef struct framebuffer_st$/;"	s
+framebuffer_t	driver/include/framebuffer.h	/^}framebuffer_t;$/;"	t	typeref:struct:framebuffer_st
+free	lib/malloc.c	/^EXPORT_SYMBOL(free);$/;"	v
+free	lib/malloc.c	/^void free(void * ptr)$/;"	f
+gate_clk_disable	driver/fb-f1c100s.c	199;"	d	file:
+gate_clk_enable	driver/fb-f1c100s.c	198;"	d	file:
+get_boot_device	machine/sys-copyself.c	/^static int get_boot_device(void)$/;"	f	file:
+gpio_direction_t	driver/include/gpio-f1c100s.h	/^}gpio_direction_t;$/;"	t	typeref:enum:__anon24
+gpio_drv_t	driver/include/gpio-f1c100s.h	/^}gpio_drv_t;$/;"	t	typeref:enum:__anon22
+gpio_f1c100s_get_cfg	driver/gpio-f1c100s.c	/^int32_t gpio_f1c100s_get_cfg(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_get_dir	driver/gpio-f1c100s.c	/^gpio_direction_t gpio_f1c100s_get_dir(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_get_drv	driver/gpio-f1c100s.c	/^gpio_drv_t gpio_f1c100s_get_drv(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_get_pull	driver/gpio-f1c100s.c	/^gpio_pull_t gpio_f1c100s_get_pull(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_get_rate	driver/gpio-f1c100s.c	/^gpio_rate_t gpio_f1c100s_get_rate(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_get_value	driver/gpio-f1c100s.c	/^int32_t gpio_f1c100s_get_value(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_f1c100s_set_cfg	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_cfg(const gpio_port_t * port, int32_t pin, int32_t cfg)$/;"	f
+gpio_f1c100s_set_dir	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_dir(const gpio_port_t * port, int32_t pin, gpio_direction_t dir)$/;"	f
+gpio_f1c100s_set_drv	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_drv(const gpio_port_t * port, int32_t pin, gpio_drv_t drv)$/;"	f
+gpio_f1c100s_set_pull	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_pull(const gpio_port_t * port, int32_t pin, gpio_pull_t pull)$/;"	f
+gpio_f1c100s_set_rate	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_rate(const gpio_port_t * port, int32_t pin, gpio_rate_t rate)$/;"	f
+gpio_f1c100s_set_value	driver/gpio-f1c100s.c	/^void gpio_f1c100s_set_value(const gpio_port_t * port, int32_t pin, int32_t value)$/;"	f
+gpio_f1c100s_to_irq	driver/gpio-f1c100s.c	/^int32_t gpio_f1c100s_to_irq(const gpio_port_t * port, int32_t pin)$/;"	f
+gpio_port_t	driver/include/gpio-f1c100s.h	/^}gpio_port_t;$/;"	t	typeref:struct:__anon25
+gpio_pull_t	driver/include/gpio-f1c100s.h	/^}gpio_pull_t;$/;"	t	typeref:enum:__anon21
+gpio_rate_t	driver/include/gpio-f1c100s.h	/^}gpio_rate_t;$/;"	t	typeref:enum:__anon23
+h_back_porch	driver/fb-f1c100s.c	/^		int32_t h_back_porch;$/;"	m	struct:__anon14::__anon15	file:
+h_front_porch	driver/fb-f1c100s.c	/^		int32_t h_front_porch;$/;"	m	struct:__anon14::__anon15	file:
+h_sync_active	driver/fb-f1c100s.c	/^		int32_t h_sync_active;$/;"	m	struct:__anon14::__anon15	file:
+h_sync_len	driver/fb-f1c100s.c	/^		int32_t h_sync_len;$/;"	m	struct:__anon14::__anon15	file:
+height	driver/fb-f1c100s.c	/^	int32_t height;$/;"	m	struct:__anon14	file:
+height	driver/include/framebuffer.h	/^	int32_t width, height;$/;"	m	struct:framebuffer_st
+height	driver/include/framebuffer.h	/^	uint32_t height;$/;"	m	struct:render_st
+i2c_f1c100s	driver/i2c-f1c100s.c	/^static struct driver_t i2c_f1c100s = {$/;"	v	typeref:struct:driver_t	file:
+i2c_f1c100s_driver_exit	driver/i2c-f1c100s.c	/^driver_exitcall(i2c_f1c100s_driver_exit);$/;"	v
+i2c_f1c100s_driver_exit	driver/i2c-f1c100s.c	/^static __exit void i2c_f1c100s_driver_exit(void)$/;"	f	file:
+i2c_f1c100s_driver_init	driver/i2c-f1c100s.c	/^driver_initcall(i2c_f1c100s_driver_init);$/;"	v
+i2c_f1c100s_driver_init	driver/i2c-f1c100s.c	/^static __init void i2c_f1c100s_driver_init(void)$/;"	f	file:
+i2c_f1c100s_pdata_t	driver/i2c-f1c100s.c	/^struct i2c_f1c100s_pdata_t {$/;"	s	file:
+i2c_f1c100s_probe	driver/i2c-f1c100s.c	/^static struct device_t * i2c_f1c100s_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+i2c_f1c100s_remove	driver/i2c-f1c100s.c	/^static void i2c_f1c100s_remove(struct device_t * dev)$/;"	f	file:
+i2c_f1c100s_resume	driver/i2c-f1c100s.c	/^static void i2c_f1c100s_resume(struct device_t * dev)$/;"	f	file:
+i2c_f1c100s_suspend	driver/i2c-f1c100s.c	/^static void i2c_f1c100s_suspend(struct device_t * dev)$/;"	f	file:
+i2c_f1c100s_xfer	driver/i2c-f1c100s.c	/^static int i2c_f1c100s_xfer(struct i2c_t * i2c, struct i2c_msg_t * msgs, int num)$/;"	f	file:
+index	driver/fb-f1c100s.c	/^	int32_t index;$/;"	m	struct:__anon14	file:
+inner_attr	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static char * inner_attr[] = {$/;"	v	file:
+input_fmt	machine/include/f1c100s/reg-defe.h	/^	u32_t input_fmt;				\/* 0x04c *\/$/;"	m	struct:f1c100s_defe_reg_t
+insert_free_block	lib/malloc.c	/^static void insert_free_block(control_t * control, block_header_t * block, int fl, int sl)$/;"	f	file:
+instruction	tools/mksunxi/mksunxi.c	/^	uint32_t instruction;$/;"	m	struct:boot_head_t	file:
+int0	machine/include/f1c100s/reg-tcon.h	/^	u32_t int0;					\/* 0x04 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+int1	machine/include/f1c100s/reg-tcon.h	/^	u32_t int1;					\/* 0x08 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+int_enable	machine/include/f1c100s/reg-defe.h	/^	u32_t int_enable;				\/* 0x060 *\/$/;"	m	struct:f1c100s_defe_reg_t
+int_status	machine/include/f1c100s/reg-defe.h	/^	u32_t int_status;				\/* 0x064 *\/$/;"	m	struct:f1c100s_defe_reg_t
+intmax_t	arch/arm32/include/types.h	/^typedef signed long long		intmax_t;$/;"	t
+intmax_t	machine/include/core_types.h	/^typedef signed long long		intmax_t;$/;"	t
+intptr_t	arch/arm32/include/types.h	/^typedef signed int				intptr_t;$/;"	t
+intptr_t	machine/include/core_types.h	/^typedef signed int				intptr_t;$/;"	t
+irq	driver/ce-f1c100s-timer.c	/^	int irq;$/;"	m	struct:ce_f1c100s_timer_pdata_t	file:
+irq	driver/key-f1c100s-lradc.c	/^	int irq;$/;"	m	struct:key_f1c100s_lradc_pdata_t	file:
+irq	machine/start.S	/^irq:$/;"	l
+irq_f1c100s	driver/irq-f1c100s.c	/^static struct driver_t irq_f1c100s = {$/;"	v	typeref:struct:driver_t	file:
+irq_f1c100s_disable	driver/irq-f1c100s.c	/^static void irq_f1c100s_disable(struct irqchip_t * chip, int offset)$/;"	f	file:
+irq_f1c100s_dispatch	driver/irq-f1c100s.c	/^static void irq_f1c100s_dispatch(struct irqchip_t * chip)$/;"	f	file:
+irq_f1c100s_driver_exit	driver/irq-f1c100s.c	/^driver_exitcall(irq_f1c100s_driver_exit);$/;"	v
+irq_f1c100s_driver_exit	driver/irq-f1c100s.c	/^static __exit void irq_f1c100s_driver_exit(void)$/;"	f	file:
+irq_f1c100s_driver_init	driver/irq-f1c100s.c	/^driver_initcall(irq_f1c100s_driver_init);$/;"	v
+irq_f1c100s_driver_init	driver/irq-f1c100s.c	/^static __init void irq_f1c100s_driver_init(void)$/;"	f	file:
+irq_f1c100s_enable	driver/irq-f1c100s.c	/^static void irq_f1c100s_enable(struct irqchip_t * chip, int offset)$/;"	f	file:
+irq_f1c100s_gpio	driver/irq-f1c100s-gpio.c	/^static struct driver_t irq_f1c100s_gpio = {$/;"	v	typeref:struct:driver_t	file:
+irq_f1c100s_gpio_disable	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_disable(struct irqchip_t * chip, int offset)$/;"	f	file:
+irq_f1c100s_gpio_dispatch	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_dispatch(struct irqchip_t * chip)$/;"	f	file:
+irq_f1c100s_gpio_driver_exit	driver/irq-f1c100s-gpio.c	/^driver_exitcall(irq_f1c100s_gpio_driver_exit);$/;"	v
+irq_f1c100s_gpio_driver_exit	driver/irq-f1c100s-gpio.c	/^static __exit void irq_f1c100s_gpio_driver_exit(void)$/;"	f	file:
+irq_f1c100s_gpio_driver_init	driver/irq-f1c100s-gpio.c	/^driver_initcall(irq_f1c100s_gpio_driver_init);$/;"	v
+irq_f1c100s_gpio_driver_init	driver/irq-f1c100s-gpio.c	/^static __init void irq_f1c100s_gpio_driver_init(void)$/;"	f	file:
+irq_f1c100s_gpio_enable	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_enable(struct irqchip_t * chip, int offset)$/;"	f	file:
+irq_f1c100s_gpio_pdata_t	driver/irq-f1c100s-gpio.c	/^struct irq_f1c100s_gpio_pdata_t$/;"	s	file:
+irq_f1c100s_gpio_probe	driver/irq-f1c100s-gpio.c	/^static struct device_t * irq_f1c100s_gpio_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+irq_f1c100s_gpio_remove	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_remove(struct device_t * dev)$/;"	f	file:
+irq_f1c100s_gpio_resume	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_resume(struct device_t * dev)$/;"	f	file:
+irq_f1c100s_gpio_settype	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_settype(struct irqchip_t * chip, int offset, enum irq_type_t type)$/;"	f	file:
+irq_f1c100s_gpio_suspend	driver/irq-f1c100s-gpio.c	/^static void irq_f1c100s_gpio_suspend(struct device_t * dev)$/;"	f	file:
+irq_f1c100s_pdata_t	driver/irq-f1c100s.c	/^struct irq_f1c100s_pdata_t$/;"	s	file:
+irq_f1c100s_probe	driver/irq-f1c100s.c	/^static struct device_t * irq_f1c100s_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+irq_f1c100s_remove	driver/irq-f1c100s.c	/^static void irq_f1c100s_remove(struct device_t * dev)$/;"	f	file:
+irq_f1c100s_resume	driver/irq-f1c100s.c	/^static void irq_f1c100s_resume(struct device_t * dev)$/;"	f	file:
+irq_f1c100s_settype	driver/irq-f1c100s.c	/^static void irq_f1c100s_settype(struct irqchip_t * chip, int offset, enum irq_type_t type)$/;"	f	file:
+irq_f1c100s_suspend	driver/irq-f1c100s.c	/^static void irq_f1c100s_suspend(struct device_t * dev)$/;"	f	file:
+irq_flags_t	arch/arm32/include/types.h	/^typedef unsigned int			irq_flags_t;$/;"	t
+irq_flags_t	machine/include/core_types.h	/^typedef unsigned int			irq_flags_t;$/;"	t
+isb	arch/arm32/include/barrier.h	13;"	d
+isb	arch/arm32/include/barrier.h	17;"	d
+isb	arch/arm32/include/barrier.h	9;"	d
+jmp_buf	arch/arm32/include/setjmp.h	/^typedef struct __jmp_buf jmp_buf[1];$/;"	t	typeref:struct:__jmp_buf
+key_f1c100s_lradc	driver/key-f1c100s-lradc.c	/^static struct driver_t key_f1c100s_lradc = {$/;"	v	typeref:struct:driver_t	file:
+key_f1c100s_lradc_driver_exit	driver/key-f1c100s-lradc.c	/^driver_exitcall(key_f1c100s_lradc_driver_exit);$/;"	v
+key_f1c100s_lradc_driver_exit	driver/key-f1c100s-lradc.c	/^static __exit void key_f1c100s_lradc_driver_exit(void)$/;"	f	file:
+key_f1c100s_lradc_driver_init	driver/key-f1c100s-lradc.c	/^driver_initcall(key_f1c100s_lradc_driver_init);$/;"	v
+key_f1c100s_lradc_driver_init	driver/key-f1c100s-lradc.c	/^static __init void key_f1c100s_lradc_driver_init(void)$/;"	f	file:
+key_f1c100s_lradc_get_keycode	driver/key-f1c100s-lradc.c	/^static int key_f1c100s_lradc_get_keycode(struct key_f1c100s_lradc_pdata_t * pdat, int voltage)$/;"	f	file:
+key_f1c100s_lradc_interrupt	driver/key-f1c100s-lradc.c	/^static void key_f1c100s_lradc_interrupt(void * data)$/;"	f	file:
+key_f1c100s_lradc_ioctl	driver/key-f1c100s-lradc.c	/^static int key_f1c100s_lradc_ioctl(struct input_t * input, int cmd, void * arg)$/;"	f	file:
+key_f1c100s_lradc_pdata_t	driver/key-f1c100s-lradc.c	/^struct key_f1c100s_lradc_pdata_t {$/;"	s	file:
+key_f1c100s_lradc_probe	driver/key-f1c100s-lradc.c	/^static struct device_t * key_f1c100s_lradc_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+key_f1c100s_lradc_remove	driver/key-f1c100s-lradc.c	/^static void key_f1c100s_lradc_remove(struct device_t * dev)$/;"	f	file:
+key_f1c100s_lradc_resume	driver/key-f1c100s-lradc.c	/^static void key_f1c100s_lradc_resume(struct device_t * dev)$/;"	f	file:
+key_f1c100s_lradc_suspend	driver/key-f1c100s-lradc.c	/^static void key_f1c100s_lradc_suspend(struct device_t * dev)$/;"	f	file:
+keycode	driver/key-f1c100s-lradc.c	/^	int keycode;$/;"	m	struct:adc_key_t	file:
+keycode	driver/key-f1c100s-lradc.c	/^	int keycode;$/;"	m	struct:key_f1c100s_lradc_pdata_t	file:
+keys	driver/key-f1c100s-lradc.c	/^	struct adc_key_t * keys;$/;"	m	struct:key_f1c100s_lradc_pdata_t	typeref:struct:key_f1c100s_lradc_pdata_t::adc_key_t	file:
+layer0_addr_high4b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_addr_high4b;		\/* 0x860 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_addr_low32b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_addr_low32b;		\/* 0x850 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_attr0_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_attr0_ctrl;		\/* 0x890 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_attr1_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_attr1_ctrl;		\/* 0x8a0 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_pos	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_pos;				\/* 0x820 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_size	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_size;				\/* 0x810 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer0_stride	machine/include/f1c100s/reg-debe.h	/^	u32_t layer0_stride;			\/* 0x840 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_addr_high4b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_addr_high4b;		\/* 0x864 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_addr_low32b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_addr_low32b;		\/* 0x854 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_attr0_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_attr0_ctrl;		\/* 0x894 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_attr1_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_attr1_ctrl;		\/* 0x8a4 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_pos	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_pos;				\/* 0x824 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_size	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_size;				\/* 0x814 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer1_stride	machine/include/f1c100s/reg-debe.h	/^	u32_t layer1_stride;			\/* 0x844 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_addr_high4b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_addr_high4b;		\/* 0x868 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_addr_low32b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_addr_low32b;		\/* 0x858 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_attr0_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_attr0_ctrl;		\/* 0x898 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_attr1_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_attr1_ctrl;		\/* 0x8a8 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_pos	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_pos;				\/* 0x828 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_size	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_size;				\/* 0x818 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer2_stride	machine/include/f1c100s/reg-debe.h	/^	u32_t layer2_stride;			\/* 0x848 *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_addr_high4b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_addr_high4b;		\/* 0x86c *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_addr_low32b	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_addr_low32b;		\/* 0x85c *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_attr0_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_attr0_ctrl;		\/* 0x89c *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_attr1_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_attr1_ctrl;		\/* 0x8ac *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_pos	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_pos;				\/* 0x82c *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_size	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_size;				\/* 0x81c *\/$/;"	m	struct:f1c100s_debe_reg_t
+layer3_stride	machine/include/f1c100s/reg-debe.h	/^	u32_t layer3_stride;			\/* 0x84c *\/$/;"	m	struct:f1c100s_debe_reg_t
+le32_to_cpu	tools/mksunxi/mksunxi.c	17;"	d	file:
+led_pwm_bl	driver/fb-f1c100s.c	/^static pwm_t led_pwm_bl =$/;"	v	file:
+length	tools/mksunxi/mksunxi.c	/^	uint32_t length;$/;"	m	struct:boot_head_t	file:
+line_int_ctrl	machine/include/f1c100s/reg-defe.h	/^	u32_t line_int_ctrl;			\/* 0x010 *\/$/;"	m	struct:f1c100s_defe_reg_t
+local_irq_disable	arch/arm32/include/irqflags.h	95;"	d
+local_irq_enable	arch/arm32/include/irqflags.h	94;"	d
+local_irq_restore	arch/arm32/include/irqflags.h	97;"	d
+local_irq_save	arch/arm32/include/irqflags.h	96;"	d
+lock	arch/arm32/include/types.h	/^	volatile long lock;$/;"	m	struct:__anon5
+lock	machine/include/core_types.h	/^	volatile long lock;$/;"	m	struct:__anon9
+loff_t	arch/arm32/include/types.h	/^typedef signed long long		loff_t;$/;"	t
+loff_t	machine/include/core_types.h	/^typedef signed long long		loff_t;$/;"	t
+longjmp	arch/arm32/lib/setjmp.S	/^longjmp:$/;"	l
+lr	machine/exception.c	/^	uint32_t lr;$/;"	m	struct:arm_regs_t	file:
+lvds_ana0	machine/include/f1c100s/reg-tcon.h	/^	u32_t lvds_ana0;			\/* 0x220 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+lvds_ana1	machine/include/f1c100s/reg-tcon.h	/^	u32_t lvds_ana1;			\/* 0x224 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+mach_cleanup	machine/sast-kk131.c	/^static void mach_cleanup(struct machine_t * mach)$/;"	f	file:
+mach_detect	machine/sast-kk131.c	/^static int mach_detect(struct machine_t * mach)$/;"	f	file:
+mach_keygen	machine/sast-kk131.c	/^static int mach_keygen(struct machine_t * mach, const char * msg, void * key)$/;"	f	file:
+mach_logger	machine/sast-kk131.c	/^static void mach_logger(struct machine_t * mach, const char * buf, int count)$/;"	f	file:
+mach_map	machine/sast-kk131.c	/^static const struct mmap_t mach_map[] = {$/;"	v	typeref:struct:mmap_t	file:
+mach_memmap	machine/sast-kk131.c	/^static void mach_memmap(struct machine_t * mach)$/;"	f	file:
+mach_reboot	machine/sast-kk131.c	/^static void mach_reboot(struct machine_t * mach)$/;"	f	file:
+mach_shutdown	machine/sast-kk131.c	/^static void mach_shutdown(struct machine_t * mach)$/;"	f	file:
+mach_sleep	machine/sast-kk131.c	/^static void mach_sleep(struct machine_t * mach)$/;"	f	file:
+mach_uniqueid	machine/sast-kk131.c	/^static const char * mach_uniqueid(struct machine_t * mach)$/;"	f	file:
+magic	tools/mksunxi/mksunxi.c	/^	uint8_t magic[8];$/;"	m	struct:boot_head_t	file:
+main	tools/mksunxi/mksunxi.c	/^int main (int argc, char *argv[])$/;"	f
+malloc	lib/malloc.c	/^EXPORT_SYMBOL(malloc);$/;"	v
+malloc	lib/malloc.c	/^void * malloc(size_t size)$/;"	f
+map_l1_section	arch/arm32/lib/cpu/mmu.c	/^static void map_l1_section(virtual_addr_t virt, physical_addr_t phys, physical_size_t size, int type)$/;"	f	file:
+map_l1_section	machine/sys-mmu.c	/^static void map_l1_section(uint32_t * ttb, virtual_addr_t virt, physical_addr_t phys, physical_size_t size, int type)$/;"	f	file:
+mapping_insert	lib/malloc.c	/^static void mapping_insert(size_t size, int * fli, int * sli)$/;"	f	file:
+mapping_search	lib/malloc.c	/^static void mapping_search(size_t size, int * fli, int * sli)$/;"	f	file:
+max	driver/key-f1c100s-lradc.c	/^	int max;$/;"	m	struct:adc_key_t	file:
+mb	arch/arm32/include/barrier.h	23;"	d
+memalign	lib/malloc.c	/^EXPORT_SYMBOL(memalign);$/;"	v
+memalign	lib/malloc.c	/^void * memalign(size_t align, size_t size)$/;"	f
+memcmp	arch/arm32/lib/memcmp.S	/^memcmp:$/;"	l
+memcpy	arch/arm32/lib/memcpy.S	/^memcpy:$/;"	l
+memmove	arch/arm32/lib/memmove.S	/^memmove:$/;"	l
+memset	arch/arm32/lib/memset.S	/^memset:$/;"	l
+min	driver/key-f1c100s-lradc.c	/^	int min;$/;"	m	struct:adc_key_t	file:
+miso	driver/spi-f1c100s.c	/^	int miso;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+misocfg	driver/spi-f1c100s.c	/^	int misocfg;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+mm_add_pool	lib/malloc.c	/^void * mm_add_pool(void * mm, void * mem, size_t bytes)$/;"	f
+mm_create	lib/malloc.c	/^void * mm_create(void * mem, size_t bytes)$/;"	f
+mm_destroy	lib/malloc.c	/^void mm_destroy(void * mm)$/;"	f
+mm_free	lib/malloc.c	/^void mm_free(void * mm, void * ptr)$/;"	f
+mm_get_pool	lib/malloc.c	/^void * mm_get_pool(void * mm)$/;"	f
+mm_malloc	lib/malloc.c	/^void * mm_malloc(void * mm, size_t size)$/;"	f
+mm_memalign	lib/malloc.c	/^void * mm_memalign(void * mm, size_t align, size_t size)$/;"	f
+mm_realloc	lib/malloc.c	/^void * mm_realloc(void * mm, void * ptr, size_t size)$/;"	f
+mm_remove_pool	lib/malloc.c	/^void mm_remove_pool(void * mm, void * pool)$/;"	f
+mmu_setup	arch/arm32/lib/cpu/mmu.c	/^void mmu_setup(const struct mmap_t * map)$/;"	f
+mmuinfo_cmd_exit	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^command_exitcall(mmuinfo_cmd_exit);$/;"	v
+mmuinfo_cmd_exit	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static __exit void mmuinfo_cmd_exit(void)$/;"	f	file:
+mmuinfo_cmd_init	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^command_initcall(mmuinfo_cmd_init);$/;"	v
+mmuinfo_cmd_init	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static __init void mmuinfo_cmd_init(void)$/;"	f	file:
+mode	machine/include/f1c100s/reg-debe.h	/^	u32_t mode;						\/* 0x800 *\/$/;"	m	struct:f1c100s_debe_reg_t
+module_entry	lib/module.h	/^	void * module_entry;$/;"	m	struct:module_t
+module_t	lib/module.h	/^struct module_t {$/;"	s
+mosi	driver/spi-f1c100s.c	/^	int mosi;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+mosicfg	driver/spi-f1c100s.c	/^	int mosicfg;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+mux_ctrl	machine/include/f1c100s/reg-tcon.h	/^	u32_t mux_ctrl;				\/* 0x200 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+name	driver/include/framebuffer.h	/^	char * name;$/;"	m	struct:framebuffer_st
+name	lib/module.h	/^	char * name;$/;"	m	struct:module_t
+name	lib/module.h	/^	const char * name;$/;"	m	struct:symbol_t
+next_free	lib/malloc.c	/^	struct block_header_t * next_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:
+ngpio	driver/include/gpio-f1c100s.h	/^	int32_t ngpio;$/;"	m	struct:__anon25
+nirq	driver/irq-f1c100s-gpio.c	/^	int nirq;$/;"	m	struct:irq_f1c100s_gpio_pdata_t	file:
+nirq	driver/irq-f1c100s.c	/^	int nirq;$/;"	m	struct:irq_f1c100s_pdata_t	file:
+nkeys	driver/key-f1c100s-lradc.c	/^	int nkeys;$/;"	m	struct:key_f1c100s_lradc_pdata_t	file:
+not_used	machine/start.S	/^not_used:$/;"	l
+nreset	driver/include/reset-f1c100s.h	/^	int32_t nreset;$/;"	m	struct:reset_f1c100s_st
+nsym	lib/module.h	/^	size_t nsym;$/;"	m	struct:module_t
+off_t	arch/arm32/include/types.h	/^typedef signed int				off_t;$/;"	t
+offset_to_block	lib/malloc.c	/^static block_header_t * offset_to_block(const void * ptr, size_t size)$/;"	f	file:
+oirq	driver/include/gpio-f1c100s.h	/^	int32_t oirq;$/;"	m	struct:__anon25
+outer_attr	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static char * outer_attr[] = {$/;"	v	file:
+output_color_coef	machine/include/f1c100s/reg-debe.h	/^	u32_t output_color_coef[12];	\/* 0x9d0 *\/$/;"	m	struct:f1c100s_debe_reg_t
+output_color_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t output_color_ctrl;		\/* 0x9c0 *\/$/;"	m	struct:f1c100s_debe_reg_t
+output_fmt	machine/include/f1c100s/reg-defe.h	/^	u32_t output_fmt;				\/* 0x05c *\/$/;"	m	struct:f1c100s_defe_reg_t
+overflow_read	arch/arm32/include/pmu.h	/^static inline uint32_t overflow_read(void)$/;"	f
+overflow_write	arch/arm32/include/pmu.h	/^static inline void overflow_write(uint32_t value)$/;"	f
+parent	driver/include/clk-f1c100s-pll.h	/^	void *parent;$/;"	m	struct:clk_pll_st
+parent	driver/irq-f1c100s-gpio.c	/^	int parent;$/;"	m	struct:irq_f1c100s_gpio_pdata_t	file:
+parity	driver/uart-16550.c	/^	int parity;$/;"	m	struct:uart_16550_pdata_t	file:
+pc	machine/exception.c	/^	uint32_t pc;$/;"	m	struct:arm_regs_t	file:
+period	driver/include/pwm-f1c100s.h	/^	int32_t period;$/;"	m	struct:__anon20
+pheight	driver/fb-f1c100s.c	/^	int32_t pheight;$/;"	m	struct:__anon14	file:
+pheight	driver/include/framebuffer.h	/^	int32_t pwidth, pheight;$/;"	m	struct:framebuffer_st
+phys_to_virt	driver/fb-f1c100s.c	40;"	d	file:
+physical_addr_t	arch/arm32/include/types.h	/^typedef unsigned int			physical_addr_t;$/;"	t
+physical_addr_t	machine/include/core_types.h	/^typedef unsigned int			physical_addr_t;$/;"	t
+physical_size_t	arch/arm32/include/types.h	/^typedef unsigned int			physical_size_t;$/;"	t
+physical_size_t	machine/include/core_types.h	/^typedef unsigned int			physical_size_t;$/;"	t
+pitch	driver/include/framebuffer.h	/^	uint32_t pitch;$/;"	m	struct:render_st
+pixel_clock_hz	driver/fb-f1c100s.c	/^		int32_t pixel_clock_hz;$/;"	m	struct:__anon14::__anon15	file:
+pixel_format_t	driver/include/framebuffer.h	/^}pixel_format_t;$/;"	t	typeref:enum:__anon26
+pixels	driver/include/framebuffer.h	/^	void * pixels;$/;"	m	struct:render_st
+pixlen	driver/include/framebuffer.h	/^	size_t pixlen;$/;"	m	struct:render_st
+pmn_config	arch/arm32/include/pmu.h	/^static inline void pmn_config(uint32_t counter, uint32_t event)$/;"	f
+pmn_disable	arch/arm32/include/pmu.h	/^static inline void pmn_disable(int counter)$/;"	f
+pmn_enable	arch/arm32/include/pmu.h	/^static inline void pmn_enable(int counter)$/;"	f
+pmn_irq_disable	arch/arm32/include/pmu.h	/^static inline void pmn_irq_disable(int counter)$/;"	f
+pmn_irq_enable	arch/arm32/include/pmu.h	/^static inline void pmn_irq_enable(int counter)$/;"	f
+pmn_number	arch/arm32/include/pmu.h	/^static inline uint32_t pmn_number(void)$/;"	f
+pmn_read	arch/arm32/include/pmu.h	/^static inline uint32_t pmn_read(uint32_t counter)$/;"	f
+pmn_reset	arch/arm32/include/pmu.h	/^static inline void pmn_reset(void)$/;"	f
+pmn_soft_increment	arch/arm32/include/pmu.h	/^static inline uint32_t pmn_soft_increment(uint32_t counter)$/;"	f
+pmu_disable	arch/arm32/include/pmu.h	/^static inline void pmu_disable(void)$/;"	f
+pmu_enable	arch/arm32/include/pmu.h	/^static inline void pmu_enable(void)$/;"	f
+pmu_user_disable	arch/arm32/include/pmu.h	/^static inline void pmu_user_disable(void)$/;"	f
+pmu_user_enable	arch/arm32/include/pmu.h	/^static inline void pmu_user_enable(void)$/;"	f
+polarity	driver/include/pwm-f1c100s.h	/^	int32_t polarity;$/;"	m	struct:__anon20
+prate	driver/include/clk-f1c100s-pll.h	/^	uint32_t prate;$/;"	m	struct:clk_pll_st
+prefetch_abort	machine/start.S	/^prefetch_abort:$/;"	l
+prescaler_table	driver/pwm-f1c100s.c	/^const uint32_t prescaler_table[] = {$/;"	v
+prev_free	lib/malloc.c	/^	struct block_header_t * prev_free;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:
+prev_phys_block	lib/malloc.c	/^	struct block_header_t * prev_phys_block;$/;"	m	struct:block_header_t	typeref:struct:block_header_t::block_header_t	file:
+priv	driver/include/framebuffer.h	/^	void * priv;$/;"	m	struct:framebuffer_st
+priv	driver/include/framebuffer.h	/^	void * priv;$/;"	m	struct:render_st
+ptrdiff_t	arch/arm32/include/types.h	/^typedef signed int				ptrdiff_t;$/;"	t
+ptrdiff_t	machine/include/core_types.h	/^typedef signed int				ptrdiff_t;$/;"	t
+pwidth	driver/fb-f1c100s.c	/^	int32_t pwidth;$/;"	m	struct:__anon14	file:
+pwidth	driver/include/framebuffer.h	/^	int32_t pwidth, pheight;$/;"	m	struct:framebuffer_st
+pwm_f1c100s_config	driver/pwm-f1c100s.c	/^void pwm_f1c100s_config(pwm_t * pwm, int32_t duty, int32_t period, int32_t polarity)$/;"	f
+pwm_f1c100s_disable	driver/pwm-f1c100s.c	/^void pwm_f1c100s_disable(pwm_t * pwm)$/;"	f
+pwm_f1c100s_enable	driver/pwm-f1c100s.c	/^void pwm_f1c100s_enable(pwm_t * pwm)$/;"	f
+pwm_f1c100s_get_duty	driver/include/pwm-f1c100s.h	/^inline int32_t pwm_f1c100s_get_duty(pwm_t * pwm) {return pwm->duty;}$/;"	f
+pwm_f1c100s_init	driver/pwm-f1c100s.c	/^int32_t pwm_f1c100s_init(pwm_t * pwm)$/;"	f
+pwm_f1c100s_set_duty	driver/pwm-f1c100s.c	/^void pwm_f1c100s_set_duty(pwm_t * pwm, int32_t duty)$/;"	f
+pwm_pin	driver/include/pwm-f1c100s.h	/^	int32_t pwm_pin;$/;"	m	struct:__anon20
+pwm_pin_cfg	driver/include/pwm-f1c100s.h	/^	int32_t pwm_pin_cfg;$/;"	m	struct:__anon20
+pwm_port	driver/include/pwm-f1c100s.h	/^	const gpio_port_t *pwm_port;$/;"	m	struct:__anon20
+pwm_t	driver/include/pwm-f1c100s.h	/^}pwm_t;$/;"	t	typeref:struct:__anon20
+r	machine/exception.c	/^	uint32_t r[13];$/;"	m	struct:arm_regs_t	file:
+raise	arch/arm32/lib/eabi.c	/^int raise(int signal)$/;"	f
+read16	include/io.h	/^static inline u16_t read16(virtual_addr_t addr)$/;"	f
+read16	machine/include/io.h	/^static inline u16_t read16(virtual_addr_t addr)$/;"	f
+read32	include/io.h	/^static inline u32_t read32(virtual_addr_t addr)$/;"	f
+read32	machine/include/io.h	/^static inline u32_t read32(virtual_addr_t addr)$/;"	f
+read64	include/io.h	/^static inline u64_t read64(virtual_addr_t addr)$/;"	f
+read64	machine/include/io.h	/^static inline u64_t read64(virtual_addr_t addr)$/;"	f
+read8	include/io.h	/^static inline u8_t read8(virtual_addr_t addr)$/;"	f
+read8	machine/include/io.h	/^static inline u8_t read8(virtual_addr_t addr)$/;"	f
+realloc	lib/malloc.c	/^EXPORT_SYMBOL(realloc);$/;"	v
+realloc	lib/malloc.c	/^void * realloc(void * ptr, size_t size)$/;"	f
+reg_ctrl	machine/include/f1c100s/reg-debe.h	/^	u32_t reg_ctrl;					\/* 0x870 *\/$/;"	m	struct:f1c100s_debe_reg_t
+register_t	arch/arm32/include/types.h	/^typedef signed int				register_t;$/;"	t
+register_t	machine/include/core_types.h	/^typedef signed int				register_t;$/;"	t
+remove_free_block	lib/malloc.c	/^static void remove_free_block(control_t * control, block_header_t * block, int fl, int sl)$/;"	f	file:
+render_st	driver/include/framebuffer.h	/^typedef struct render_st{$/;"	s
+render_t	driver/include/framebuffer.h	/^}render_t;$/;"	t	typeref:struct:render_st
+res0	machine/include/f1c100s/reg-debe.h	/^	u8_t res0[0x800];				\/* 0x000 *\/$/;"	m	struct:f1c100s_debe_reg_t
+res0	machine/include/f1c100s/reg-defe.h	/^	u8_t res0[0x0c];				\/* 0x014 *\/$/;"	m	struct:f1c100s_defe_reg_t
+res0	machine/include/f1c100s/reg-tcon.h	/^	u8_t res0[0x04];			\/* 0x0c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res1	machine/include/f1c100s/reg-debe.h	/^	u8_t res1[0x4];					\/* 0x80c *\/$/;"	m	struct:f1c100s_debe_reg_t
+res1	machine/include/f1c100s/reg-defe.h	/^	u8_t res1[0x04];				\/* 0x03c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res1	machine/include/f1c100s/reg-tcon.h	/^	u8_t res1[4];				\/* 0x3c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res10	machine/include/f1c100s/reg-defe.h	/^	u8_t res10[0x280];				\/* 0x780 *\/$/;"	m	struct:f1c100s_defe_reg_t
+res2	machine/include/f1c100s/reg-debe.h	/^	u8_t res2[0x10];				\/* 0x830 *\/$/;"	m	struct:f1c100s_debe_reg_t
+res2	machine/include/f1c100s/reg-defe.h	/^	u8_t res2[0x04];				\/* 0x06c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res2	machine/include/f1c100s/reg-tcon.h	/^	u8_t res2[0x04];			\/* 0x5c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res3	machine/include/f1c100s/reg-debe.h	/^	u8_t res3[0xc];					\/* 0x874 *\/$/;"	m	struct:f1c100s_debe_reg_t
+res3	machine/include/f1c100s/reg-defe.h	/^	u8_t res3[0x0c];				\/* 0x0c4 *\/$/;"	m	struct:f1c100s_defe_reg_t
+res3	machine/include/f1c100s/reg-tcon.h	/^	u8_t res3[0x44];			\/* 0xac *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res4	machine/include/f1c100s/reg-debe.h	/^	u8_t res4[0x4];					\/* 0x88c *\/$/;"	m	struct:f1c100s_debe_reg_t
+res4	machine/include/f1c100s/reg-defe.h	/^	u8_t res4[0x04];				\/* 0x0fc *\/$/;"	m	struct:f1c100s_defe_reg_t
+res4	machine/include/f1c100s/reg-tcon.h	/^	u8_t res4[0x108];			\/* 0xf8 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res5	machine/include/f1c100s/reg-debe.h	/^	u8_t res5[0x110];				\/* 0x8b0 *\/$/;"	m	struct:f1c100s_debe_reg_t
+res5	machine/include/f1c100s/reg-defe.h	/^	u8_t res5[0x04];				\/* 0x11c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res5	machine/include/f1c100s/reg-tcon.h	/^	u8_t res5[0x1c];			\/* 0x204 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+res6	machine/include/f1c100s/reg-debe.h	/^	u8_t res6[0xc];					\/* 0x9c4 *\/$/;"	m	struct:f1c100s_debe_reg_t
+res6	machine/include/f1c100s/reg-defe.h	/^	u8_t res6[0xd4];				\/* 0x12c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res7	machine/include/f1c100s/reg-defe.h	/^	u8_t res7[0x04];				\/* 0x21c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res8	machine/include/f1c100s/reg-defe.h	/^	u8_t res8[0x1d4];				\/* 0x22c *\/$/;"	m	struct:f1c100s_defe_reg_t
+res9	machine/include/f1c100s/reg-defe.h	/^	u8_t res9[0x80];				\/* 0x580 *\/$/;"	m	struct:f1c100s_defe_reg_t
+reserved1	tools/mksunxi/mksunxi.c	/^	uint32_t reserved1;$/;"	m	struct:boot_head_t	file:
+reset	driver/i2c-f1c100s.c	/^	int reset;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+reset	driver/spi-f1c100s.c	/^	int reset;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+reset	driver/uart-16550.c	/^	int reset;$/;"	m	struct:uart_16550_pdata_t	file:
+reset	machine/start.S	/^reset:$/;"	l
+reset_1	driver/fb-f1c100s.c	/^reset_f1c100s_t reset_1 = $/;"	v
+reset_2	driver/fb-f1c100s.c	/^reset_f1c100s_t reset_2 = $/;"	v
+reset_3	driver/fb-f1c100s.c	/^reset_f1c100s_t reset_3 = $/;"	v
+reset_f1c100s_assert	driver/reset-f1c100s.c	/^void reset_f1c100s_assert(reset_f1c100s_t * reset, int32_t offset)$/;"	f
+reset_f1c100s_deassert	driver/reset-f1c100s.c	/^void reset_f1c100s_deassert(reset_f1c100s_t * reset, int32_t offset)$/;"	f
+reset_f1c100s_st	driver/include/reset-f1c100s.h	/^typedef struct reset_f1c100s_st$/;"	s
+reset_f1c100s_t	driver/include/reset-f1c100s.h	/^}reset_f1c100s_t;$/;"	t	typeref:struct:reset_f1c100s_st
+return_to_fel	machine/start.S	/^return_to_fel:$/;"	l
+rmb	arch/arm32/include/barrier.h	25;"	d
+row_width	machine/sys-dram.c	/^	uint32_t row_width;		\/* row address width *\/$/;"	m	struct:dram_para_t	file:
+rstdebe	driver/fb-f1c100s.c	/^	int32_t rstdebe;$/;"	m	struct:__anon14	file:
+rstdefe	driver/fb-f1c100s.c	/^	int32_t rstdefe;$/;"	m	struct:__anon14	file:
+rsttcon	driver/fb-f1c100s.c	/^	int32_t rsttcon;$/;"	m	struct:__anon14	file:
+rxd	driver/uart-16550.c	/^	int rxd;$/;"	m	struct:uart_16550_pdata_t	file:
+rxdcfg	driver/uart-16550.c	/^	int rxdcfg;$/;"	m	struct:uart_16550_pdata_t	file:
+s16_t	arch/arm32/include/types.h	/^typedef signed short			s16_t;$/;"	t
+s16_t	machine/include/core_types.h	/^typedef signed short			s16_t;$/;"	t
+s32_t	arch/arm32/include/types.h	/^typedef signed int				s32_t;$/;"	t
+s32_t	machine/include/core_types.h	/^typedef signed int				s32_t;$/;"	t
+s64_t	arch/arm32/include/types.h	/^typedef signed long long		s64_t;$/;"	t
+s64_t	machine/include/core_types.h	/^typedef signed long long		s64_t;$/;"	t
+s8_t	arch/arm32/include/types.h	/^typedef signed char				s8_t;$/;"	t
+s8_t	machine/include/core_types.h	/^typedef signed char				s8_t;$/;"	t
+sast_kk131	machine/sast-kk131.c	/^static struct machine_t sast_kk131 = {$/;"	v	typeref:struct:machine_t	file:
+sast_kk131_machine_exit	machine/sast-kk131.c	/^machine_exitcall(sast_kk131_machine_exit);$/;"	v
+sast_kk131_machine_exit	machine/sast-kk131.c	/^static __exit void sast_kk131_machine_exit(void)$/;"	f	file:
+sast_kk131_machine_init	machine/sast-kk131.c	/^machine_initcall(sast_kk131_machine_init);$/;"	v
+sast_kk131_machine_init	machine/sast-kk131.c	/^static __init void sast_kk131_machine_init(void)$/;"	f	file:
+scl	driver/i2c-f1c100s.c	/^	int scl;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+sclcfg	driver/i2c-f1c100s.c	/^	int sclcfg;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+sclk	driver/spi-f1c100s.c	/^	int sclk;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+sclkcfg	driver/spi-f1c100s.c	/^	int sclkcfg;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+sda	driver/i2c-f1c100s.c	/^	int sda;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+sdacfg	driver/i2c-f1c100s.c	/^	int sdacfg;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+sdelay	machine/sys-clock.c	/^static inline void sdelay(int loops)$/;"	f	file:
+sdelay	machine/sys-dram.c	/^static inline void sdelay(int loops)$/;"	f	file:
+sdr_ddr	machine/sys-dram.c	/^	enum dram_type_t sdr_ddr;$/;"	m	struct:dram_para_t	typeref:enum:dram_para_t::dram_type_t	file:
+sdr_readpipe_scan	machine/sys-dram.c	/^static int sdr_readpipe_scan(void)$/;"	f	file:
+sdr_readpipe_select	machine/sys-dram.c	/^static uint32_t sdr_readpipe_select(void)$/;"	f	file:
+search_suitable_block	lib/malloc.c	/^static block_header_t * search_suitable_block(control_t * control, int * fli, int * sli)$/;"	f	file:
+setjmp	arch/arm32/lib/setjmp.S	/^setjmp:$/;"	l
+show_regs	machine/exception.c	/^static void show_regs(struct arm_regs_t * regs)$/;"	f	file:
+size	lib/malloc.c	/^	size_t size;$/;"	m	struct:block_header_t	file:
+size	machine/sys-dram.c	/^	uint32_t size;				\/* dram size (unit: MByte) *\/$/;"	m	struct:dram_para_t	file:
+size_t	arch/arm32/include/types.h	/^typedef unsigned int			size_t;$/;"	t
+size_t	machine/include/core_types.h	/^typedef unsigned int			size_t;$/;"	t
+sl_bitmap	lib/malloc.c	/^	unsigned int sl_bitmap[FL_INDEX_COUNT];$/;"	m	struct:control_t	file:
+smp_mb	arch/arm32/include/barrier.h	30;"	d
+smp_rmb	arch/arm32/include/barrier.h	32;"	d
+smp_wmb	arch/arm32/include/barrier.h	34;"	d
+software_interrupt	machine/start.S	/^software_interrupt:$/;"	l
+sp	machine/exception.c	/^	uint32_t sp;$/;"	m	struct:arm_regs_t	file:
+space	lib/module.h	/^	void * space;$/;"	m	struct:module_t
+spi_f1c100s	driver/spi-f1c100s.c	/^static struct driver_t spi_f1c100s = {$/;"	v	typeref:struct:driver_t	file:
+spi_f1c100s_deselect	driver/spi-f1c100s.c	/^static void spi_f1c100s_deselect(struct spi_t * spi, int cs)$/;"	f	file:
+spi_f1c100s_driver_exit	driver/spi-f1c100s.c	/^driver_exitcall(spi_f1c100s_driver_exit);$/;"	v
+spi_f1c100s_driver_exit	driver/spi-f1c100s.c	/^static __exit void spi_f1c100s_driver_exit(void)$/;"	f	file:
+spi_f1c100s_driver_init	driver/spi-f1c100s.c	/^driver_initcall(spi_f1c100s_driver_init);$/;"	v
+spi_f1c100s_driver_init	driver/spi-f1c100s.c	/^static __init void spi_f1c100s_driver_init(void)$/;"	f	file:
+spi_f1c100s_pdata_t	driver/spi-f1c100s.c	/^struct spi_f1c100s_pdata_t {$/;"	s	file:
+spi_f1c100s_probe	driver/spi-f1c100s.c	/^static struct device_t * spi_f1c100s_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+spi_f1c100s_remove	driver/spi-f1c100s.c	/^static void spi_f1c100s_remove(struct device_t * dev)$/;"	f	file:
+spi_f1c100s_resume	driver/spi-f1c100s.c	/^static void spi_f1c100s_resume(struct device_t * dev)$/;"	f	file:
+spi_f1c100s_select	driver/spi-f1c100s.c	/^static void spi_f1c100s_select(struct spi_t * spi, int cs)$/;"	f	file:
+spi_f1c100s_suspend	driver/spi-f1c100s.c	/^static void spi_f1c100s_suspend(struct device_t * dev)$/;"	f	file:
+spi_f1c100s_transfer	driver/spi-f1c100s.c	/^static int spi_f1c100s_transfer(struct spi_t * spi, struct spi_msg_t * msg)$/;"	f	file:
+spin_lock	arch/arm32/include/spinlock.h	29;"	d
+spin_lock_init	arch/arm32/include/spinlock.h	27;"	d
+spin_lock_irq	arch/arm32/include/spinlock.h	31;"	d
+spin_lock_irqsave	arch/arm32/include/spinlock.h	33;"	d
+spin_trylock	arch/arm32/include/spinlock.h	28;"	d
+spin_unlock	arch/arm32/include/spinlock.h	30;"	d
+spin_unlock_irq	arch/arm32/include/spinlock.h	32;"	d
+spin_unlock_irqrestore	arch/arm32/include/spinlock.h	34;"	d
+spinlock_t	arch/arm32/include/types.h	/^} spinlock_t;$/;"	t	typeref:struct:__anon5
+spinlock_t	machine/include/core_types.h	/^} spinlock_t;$/;"	t	typeref:struct:__anon9
+spl_signature	tools/mksunxi/mksunxi.c	/^	uint8_t spl_signature[4];$/;"	m	struct:boot_head_t	file:
+ssize_t	arch/arm32/include/types.h	/^typedef signed int				ssize_t;$/;"	t
+ssize_t	machine/include/core_types.h	/^typedef signed int				ssize_t;$/;"	t
+status	machine/include/f1c100s/reg-defe.h	/^	u32_t status;					\/* 0x068 *\/$/;"	m	struct:f1c100s_defe_reg_t
+stop	driver/uart-16550.c	/^	int stop;$/;"	m	struct:uart_16550_pdata_t	file:
+strcmp	arch/arm32/lib/strcmp.S	/^strcmp:$/;"	l
+string_pool	tools/mksunxi/mksunxi.c	/^	uint32_t string_pool[13];$/;"	m	struct:boot_head_t	file:
+strncmp	arch/arm32/lib/strncmp.S	/^strncmp:$/;"	l
+symbol_get	lib/module.h	31;"	d
+symbol_t	lib/module.h	/^struct symbol_t$/;"	s
+symtab	lib/module.h	/^	struct symbol_t * symtab;$/;"	m	struct:module_t	typeref:struct:module_t::symbol_t
+sys_clock_init	machine/sys-clock.c	/^void sys_clock_init(void)$/;"	f
+sys_copyself	machine/sys-copyself.c	/^void sys_copyself(void)$/;"	f
+sys_dram_init	machine/sys-dram.c	/^void sys_dram_init(void)$/;"	f
+sys_mmu_init	machine/sys-mmu.c	/^void sys_mmu_init(void)$/;"	f
+sys_spi_deselect	machine/sys-spi-flash.c	/^static void sys_spi_deselect(void)$/;"	f	file:
+sys_spi_flash_exit	machine/sys-spi-flash.c	/^void sys_spi_flash_exit(void)$/;"	f
+sys_spi_flash_init	machine/sys-spi-flash.c	/^void sys_spi_flash_init(void)$/;"	f
+sys_spi_flash_read	machine/sys-spi-flash.c	/^void sys_spi_flash_read(int addr, void * buf, int count)$/;"	f
+sys_spi_select	machine/sys-spi-flash.c	/^static void sys_spi_select(void)$/;"	f	file:
+sys_spi_transfer	machine/sys-spi-flash.c	/^static int sys_spi_transfer(void * txbuf, void * rxbuf, int len)$/;"	f	file:
+sys_spi_write_then_read	machine/sys-spi-flash.c	/^static int sys_spi_write_then_read(void * txbuf, int txlen, void * rxbuf, int rxlen)$/;"	f	file:
+sys_spi_write_txbuf	machine/sys-spi-flash.c	/^static void sys_spi_write_txbuf(uint8_t * buf, int len)$/;"	f	file:
+sys_uart_init	machine/sys-uart.c	/^void sys_uart_init(void)$/;"	f
+sys_uart_putc	machine/sys-uart.c	/^void sys_uart_putc(char c)$/;"	f
+tcon0_cpu_intf	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_cpu_intf;		\/* 0x60 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_cpu_rd_dat0	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_cpu_rd_dat0;	\/* 0x68 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_cpu_rd_dat1	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_cpu_rd_dat1;	\/* 0x6c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_cpu_wr_dat	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_cpu_wr_dat;		\/* 0x64 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ctrl	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ctrl;			\/* 0x40 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_dclk	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_dclk;			\/* 0x44 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_frm_ctrl	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_frm_ctrl;		\/* 0x10 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_frm_seed	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_frm_seed[6];	\/* 0x14 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_frm_table	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_frm_table[4];	\/* 0x2c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_hv_intf	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_hv_intf;		\/* 0x58 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_io_polarity	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_io_polarity;	\/* 0x88 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_io_tristate	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_io_tristate;	\/* 0x8c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_lvds_intf	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_lvds_intf;		\/* 0x84 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_timing_active	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_timing_active;	\/* 0x48 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_timing_h	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_timing_h;		\/* 0x4c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_timing_sync	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_timing_sync;	\/* 0x54 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_timing_v	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_timing_v;		\/* 0x50 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ttl_timing0	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ttl_timing0;	\/* 0x70 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ttl_timing1	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ttl_timing1;	\/* 0x74 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ttl_timing2	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ttl_timing2;	\/* 0x78 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ttl_timing3	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ttl_timing3;	\/* 0x7c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon0_ttl_timing4	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon0_ttl_timing4;	\/* 0x80 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_ctrl	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_ctrl;			\/* 0x90 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_io_polarity	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_io_polarity;	\/* 0xf0 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_io_tristate	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_io_tristate;	\/* 0xf4 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_h	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_h;		\/* 0xa0 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_out	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_out;		\/* 0x9c *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_scale	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_scale;	\/* 0x98 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_source	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_source;	\/* 0x94 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_sync	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_sync;	\/* 0xa8 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+tcon1_timing_v	machine/include/f1c100s/reg-tcon.h	/^	u32_t tcon1_timing_v;		\/* 0xa4 *\/$/;"	m	struct:f1c100s_tcon_reg_t
+timing	driver/fb-f1c100s.c	/^	} timing;$/;"	m	struct:__anon14	typeref:struct:__anon14::__anon15	file:
+tlsf_add_pool	lib/malloc.c	/^static inline void * tlsf_add_pool(void * tlsf, void * mem, size_t bytes)$/;"	f	file:
+tlsf_assert	lib/malloc.c	16;"	d	file:
+tlsf_cast	lib/malloc.c	12;"	d	file:
+tlsf_create	lib/malloc.c	/^static inline void * tlsf_create(void * mem)$/;"	f	file:
+tlsf_create_with_pool	lib/malloc.c	/^static inline void * tlsf_create_with_pool(void * mem, size_t bytes)$/;"	f	file:
+tlsf_destroy	lib/malloc.c	/^static inline void tlsf_destroy(void * tlsf)$/;"	f	file:
+tlsf_ffs	lib/malloc.c	/^static int tlsf_ffs(unsigned int word)$/;"	f	file:
+tlsf_fls	lib/malloc.c	/^static int tlsf_fls(unsigned int word)$/;"	f	file:
+tlsf_fls_generic	lib/malloc.c	/^static int tlsf_fls_generic(unsigned int word)$/;"	f	file:
+tlsf_fls_sizet	lib/malloc.c	/^static int tlsf_fls_sizet(size_t size)$/;"	f	file:
+tlsf_fls_sizet	lib/malloc.c	179;"	d	file:
+tlsf_free	lib/malloc.c	/^static inline void tlsf_free(void * tlsf, void * ptr)$/;"	f	file:
+tlsf_get_pool	lib/malloc.c	/^static inline void * tlsf_get_pool(void * tlsf)$/;"	f	file:
+tlsf_insist	lib/malloc.c	17;"	d	file:
+tlsf_malloc	lib/malloc.c	/^static inline void * tlsf_malloc(void * tlsf, size_t size)$/;"	f	file:
+tlsf_max	lib/malloc.c	14;"	d	file:
+tlsf_memalign	lib/malloc.c	/^static inline void * tlsf_memalign(void * tlsf, size_t align, size_t size)$/;"	f	file:
+tlsf_min	lib/malloc.c	13;"	d	file:
+tlsf_private	lib/malloc.c	/^enum tlsf_private$/;"	g	file:
+tlsf_public	lib/malloc.c	/^enum tlsf_public$/;"	g	file:
+tlsf_realloc	lib/malloc.c	/^static inline void * tlsf_realloc(void * tlsf, void * ptr, size_t size)$/;"	f	file:
+tlsf_remove_pool	lib/malloc.c	/^static inline void tlsf_remove_pool(void * tlsf, void * pool)$/;"	f	file:
+tlsfptr_t	lib/malloc.c	/^typedef ptrdiff_t	tlsfptr_t;$/;"	t	file:
+txd	driver/uart-16550.c	/^	int txd;$/;"	m	struct:uart_16550_pdata_t	file:
+txdcfg	driver/uart-16550.c	/^	int txdcfg;$/;"	m	struct:uart_16550_pdata_t	file:
+u16_t	arch/arm32/include/types.h	/^typedef unsigned short			u16_t;$/;"	t
+u16_t	machine/include/core_types.h	/^typedef unsigned short			u16_t;$/;"	t
+u32_t	arch/arm32/include/types.h	/^typedef unsigned int			u32_t;$/;"	t
+u32_t	machine/include/core_types.h	/^typedef unsigned int			u32_t;$/;"	t
+u64_t	arch/arm32/include/types.h	/^typedef unsigned long long		u64_t;$/;"	t
+u64_t	machine/include/core_types.h	/^typedef unsigned long long		u64_t;$/;"	t
+u8_t	arch/arm32/include/types.h	/^typedef unsigned char			u8_t;$/;"	t
+u8_t	machine/include/core_types.h	/^typedef unsigned char			u8_t;$/;"	t
+uart_16550	driver/uart-16550.c	/^static struct driver_t uart_16550 = {$/;"	v	typeref:struct:driver_t	file:
+uart_16550_driver_exit	driver/uart-16550.c	/^driver_exitcall(uart_16550_driver_exit);$/;"	v
+uart_16550_driver_exit	driver/uart-16550.c	/^static __exit void uart_16550_driver_exit(void)$/;"	f	file:
+uart_16550_driver_init	driver/uart-16550.c	/^driver_initcall(uart_16550_driver_init);$/;"	v
+uart_16550_driver_init	driver/uart-16550.c	/^static __init void uart_16550_driver_init(void)$/;"	f	file:
+uart_16550_get	driver/uart-16550.c	/^static bool_t uart_16550_get(struct uart_t * uart, int * baud, int * data, int * parity, int * stop)$/;"	f	file:
+uart_16550_pdata_t	driver/uart-16550.c	/^struct uart_16550_pdata_t {$/;"	s	file:
+uart_16550_probe	driver/uart-16550.c	/^static struct device_t * uart_16550_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+uart_16550_read	driver/uart-16550.c	/^static ssize_t uart_16550_read(struct uart_t * uart, u8_t * buf, size_t count)$/;"	f	file:
+uart_16550_remove	driver/uart-16550.c	/^static void uart_16550_remove(struct device_t * dev)$/;"	f	file:
+uart_16550_resume	driver/uart-16550.c	/^static void uart_16550_resume(struct device_t * dev)$/;"	f	file:
+uart_16550_set	driver/uart-16550.c	/^static bool_t uart_16550_set(struct uart_t * uart, int baud, int data, int parity, int stop)$/;"	f	file:
+uart_16550_suspend	driver/uart-16550.c	/^static void uart_16550_suspend(struct device_t * dev)$/;"	f	file:
+uart_16550_write	driver/uart-16550.c	/^static ssize_t uart_16550_write(struct uart_t * uart, const u8_t * buf, size_t count)$/;"	f	file:
+uintmax_t	arch/arm32/include/types.h	/^typedef unsigned long long		uintmax_t;$/;"	t
+uintmax_t	machine/include/core_types.h	/^typedef unsigned long long		uintmax_t;$/;"	t
+uintptr_t	arch/arm32/include/types.h	/^typedef unsigned int 			uintptr_t;$/;"	t
+uintptr_t	machine/include/core_types.h	/^typedef unsigned int 			uintptr_t;$/;"	t
+undefined_instruction	machine/start.S	/^undefined_instruction:$/;"	l
+usage	arch/arm32/lib/cpu/cmd-bootlinux.c	/^static void usage(void)$/;"	f	file:
+usage	arch/arm32/lib/cpu/cmd-cpuinfo.c	/^static void usage(void)$/;"	f	file:
+usage	arch/arm32/lib/cpu/cmd-mmuinfo.c	/^static void usage(void)$/;"	f	file:
+v_back_porch	driver/fb-f1c100s.c	/^		int32_t v_back_porch;$/;"	m	struct:__anon14::__anon15	file:
+v_front_porch	driver/fb-f1c100s.c	/^		int32_t v_front_porch;$/;"	m	struct:__anon14::__anon15	file:
+v_sync_active	driver/fb-f1c100s.c	/^		int32_t v_sync_active;$/;"	m	struct:__anon14::__anon15	file:
+v_sync_len	driver/fb-f1c100s.c	/^		int32_t v_sync_len;$/;"	m	struct:__anon14::__anon15	file:
+virt	driver/ce-f1c100s-timer.c	/^	virtual_addr_t virt;$/;"	m	struct:ce_f1c100s_timer_pdata_t	file:
+virt	driver/cs-f1c100s-timer.c	/^	virtual_addr_t virt;$/;"	m	struct:cs_f1c100s_timer_pdata_t	file:
+virt	driver/i2c-f1c100s.c	/^	virtual_addr_t virt;$/;"	m	struct:i2c_f1c100s_pdata_t	file:
+virt	driver/include/clk-f1c100s-pll.h	/^	virtual_addr_t virt;$/;"	m	struct:clk_pll_st
+virt	driver/include/gpio-f1c100s.h	/^	virtual_addr_t virt;$/;"	m	struct:__anon25
+virt	driver/include/pwm-f1c100s.h	/^	virtual_addr_t virt;$/;"	m	struct:__anon20
+virt	driver/include/reset-f1c100s.h	/^	virtual_addr_t virt;$/;"	m	struct:reset_f1c100s_st
+virt	driver/irq-f1c100s-gpio.c	/^	virtual_addr_t virt;$/;"	m	struct:irq_f1c100s_gpio_pdata_t	file:
+virt	driver/irq-f1c100s.c	/^	virtual_addr_t virt;$/;"	m	struct:irq_f1c100s_pdata_t	file:
+virt	driver/key-f1c100s-lradc.c	/^	virtual_addr_t virt;$/;"	m	struct:key_f1c100s_lradc_pdata_t	file:
+virt	driver/spi-f1c100s.c	/^	virtual_addr_t virt;$/;"	m	struct:spi_f1c100s_pdata_t	file:
+virt	driver/uart-16550.c	/^	virtual_addr_t virt;$/;"	m	struct:uart_16550_pdata_t	file:
+virt	driver/wdog-f1c100s.c	/^	virtual_addr_t virt;$/;"	m	struct:wdog_f1c100s_pdata_t	file:
+virtdebe	driver/fb-f1c100s.c	/^	virtual_addr_t virtdebe;$/;"	m	struct:__anon14	file:
+virtdefe	driver/fb-f1c100s.c	/^	virtual_addr_t virtdefe;$/;"	m	struct:__anon14	file:
+virttcon	driver/fb-f1c100s.c	/^	virtual_addr_t virttcon;$/;"	m	struct:__anon14	file:
+virtual_addr_t	arch/arm32/include/types.h	/^typedef unsigned int			virtual_addr_t;$/;"	t
+virtual_addr_t	machine/include/core_types.h	/^typedef unsigned int			virtual_addr_t;$/;"	t
+virtual_size_t	arch/arm32/include/types.h	/^typedef unsigned int			virtual_size_t;$/;"	t
+virtual_size_t	machine/include/core_types.h	/^typedef unsigned int			virtual_size_t;$/;"	t
+vpp_ble	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_ble;					\/* 0xa14 *\/$/;"	m	struct:f1c100s_defe_reg_t
+vpp_dcti	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_dcti;					\/* 0xa04 *\/$/;"	m	struct:f1c100s_defe_reg_t
+vpp_enable	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_enable;				\/* 0xa00 *\/$/;"	m	struct:f1c100s_defe_reg_t
+vpp_lp1	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_lp1;					\/* 0xa08 *\/$/;"	m	struct:f1c100s_defe_reg_t
+vpp_lp2	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_lp2;					\/* 0xa0c *\/$/;"	m	struct:f1c100s_defe_reg_t
+vpp_wle	machine/include/f1c100s/reg-defe.h	/^	u32_t vpp_wle;					\/* 0xa10 *\/$/;"	m	struct:f1c100s_defe_reg_t
+vram	driver/fb-f1c100s.c	/^	void * vram[2];$/;"	m	struct:__anon14	file:
+vref	driver/key-f1c100s-lradc.c	/^	int vref;$/;"	m	struct:key_f1c100s_lradc_pdata_t	file:
+wait_pll_stable	machine/sys-clock.c	/^static void wait_pll_stable(uint32_t base)$/;"	f	file:
+wb_stride_enable	machine/include/f1c100s/reg-defe.h	/^	u32_t wb_stride_enable;			\/* 0x0d0 *\/$/;"	m	struct:f1c100s_defe_reg_t
+wdog_f1c100s	driver/wdog-f1c100s.c	/^static struct driver_t wdog_f1c100s = {$/;"	v	typeref:struct:driver_t	file:
+wdog_f1c100s_driver_exit	driver/wdog-f1c100s.c	/^driver_exitcall(wdog_f1c100s_driver_exit);$/;"	v
+wdog_f1c100s_driver_exit	driver/wdog-f1c100s.c	/^static __exit void wdog_f1c100s_driver_exit(void)$/;"	f	file:
+wdog_f1c100s_driver_init	driver/wdog-f1c100s.c	/^driver_initcall(wdog_f1c100s_driver_init);$/;"	v
+wdog_f1c100s_driver_init	driver/wdog-f1c100s.c	/^static __init void wdog_f1c100s_driver_init(void)$/;"	f	file:
+wdog_f1c100s_get	driver/wdog-f1c100s.c	/^static int wdog_f1c100s_get(struct watchdog_t * watchdog)$/;"	f	file:
+wdog_f1c100s_pdata_t	driver/wdog-f1c100s.c	/^struct wdog_f1c100s_pdata_t {$/;"	s	file:
+wdog_f1c100s_probe	driver/wdog-f1c100s.c	/^static struct device_t * wdog_f1c100s_probe(struct driver_t * drv, struct dtnode_t * n)$/;"	f	file:
+wdog_f1c100s_remove	driver/wdog-f1c100s.c	/^static void wdog_f1c100s_remove(struct device_t * dev)$/;"	f	file:
+wdog_f1c100s_resume	driver/wdog-f1c100s.c	/^static void wdog_f1c100s_resume(struct device_t * dev)$/;"	f	file:
+wdog_f1c100s_set	driver/wdog-f1c100s.c	/^static void wdog_f1c100s_set(struct watchdog_t * watchdog, int timeout)$/;"	f	file:
+wdog_f1c100s_suspend	driver/wdog-f1c100s.c	/^static void wdog_f1c100s_suspend(struct device_t * dev)$/;"	f	file:
+wdt_timeout_map	driver/wdog-f1c100s.c	/^static const int wdt_timeout_map[] = {$/;"	v	file:
+width	driver/fb-f1c100s.c	/^	int32_t width;$/;"	m	struct:__anon14	file:
+width	driver/include/framebuffer.h	/^	int32_t width, height;$/;"	m	struct:framebuffer_st
+width	driver/include/framebuffer.h	/^	uint32_t width;$/;"	m	struct:render_st
+wmb	arch/arm32/include/barrier.h	27;"	d
+write16	include/io.h	/^static inline void write16(virtual_addr_t addr, u16_t value)$/;"	f
+write16	machine/include/io.h	/^static inline void write16(virtual_addr_t addr, u16_t value)$/;"	f
+write32	include/io.h	/^static inline void write32(virtual_addr_t addr, u32_t value)$/;"	f
+write32	machine/include/io.h	/^static inline void write32(virtual_addr_t addr, u32_t value)$/;"	f
+write64	include/io.h	/^static inline void write64(virtual_addr_t addr, u64_t value)$/;"	f
+write64	machine/include/io.h	/^static inline void write64(virtual_addr_t addr, u64_t value)$/;"	f
+write8	include/io.h	/^static inline void write8(virtual_addr_t addr, u8_t value)$/;"	f
+write8	machine/include/io.h	/^static inline void write8(virtual_addr_t addr, u8_t value)$/;"	f

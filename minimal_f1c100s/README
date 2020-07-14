@@ -1,0 +1,30 @@
+original blog : https://whycan.cn/t_1457.html#p8207
+
+issue1:
+
+
+果然顺利编译完成.
+
+但是烧进去之后，屏幕串口都没有反应，
+而且再次进入 fel 模式,
+说明应该是有问题的。
+
+issue2: 
+
+mksunxi tool编了吗？
+最后几行应该会显示brom been fixed字样，Bootloader size=xxxx
+
+
+how to do 
+
+chmod 777 
+
+mksunxi
+
+make clean 
+
+make 
+
+make write 
+
+

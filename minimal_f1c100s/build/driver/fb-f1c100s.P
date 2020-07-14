@@ -1,0 +1,62 @@
+build/driver/fb-f1c100s.o: driver/fb-f1c100s.c \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdlib.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/ieeefp.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/newlib.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/config.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/reent.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/_types.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_types.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/lock.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/stdlib.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/alloca.h \
+ lib/dma.h lib/malloc.h machine/include/core_types.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/string.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/cdefs.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/string.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/assert.h \
+ lib/module.h driver/include/clk-f1c100s-pll.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h \
+ driver/include/reset-f1c100s.h driver/include/gpio-f1c100s.h \
+ driver/include/pwm-f1c100s.h driver/include/framebuffer.h \
+ machine/include/f1c100s-gpio.h machine/include/f1c100s/reg-tcon.h \
+ arch/arm32/include/types.h machine/include/f1c100s/reg-defe.h \
+ machine/include/f1c100s/reg-debe.h machine/include/f1c100s/reg-ccu.h \
+ machine/include/io.h
+driver/fb-f1c100s.c :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdlib.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/ieeefp.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/newlib.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/config.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/reent.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/_types.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_types.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/lock.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/stdlib.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/alloca.h :
+ lib/dma.h lib/malloc.h machine/include/core_types.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/string.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/cdefs.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/string.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/assert.h :
+ lib/module.h driver/include/clk-f1c100s-pll.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h :
+ driver/include/reset-f1c100s.h driver/include/gpio-f1c100s.h :
+ driver/include/pwm-f1c100s.h driver/include/framebuffer.h :
+ machine/include/f1c100s-gpio.h machine/include/f1c100s/reg-tcon.h :
+ arch/arm32/include/types.h machine/include/f1c100s/reg-defe.h :
+ machine/include/f1c100s/reg-debe.h machine/include/f1c100s/reg-ccu.h :
+ machine/include/io.h :

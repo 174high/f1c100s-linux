@@ -1,0 +1,16 @@
+build/driver/clk-f1c100s-pll.o: driver/clk-f1c100s-pll.c \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h \
+ driver/include/clk-f1c100s-pll.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h \
+ machine/include/core_types.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h \
+ machine/include/f1c100s/reg-ccu.h machine/include/io.h
+driver/clk-f1c100s-pll.c :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h :
+ driver/include/clk-f1c100s-pll.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h :
+ machine/include/core_types.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h :
+ machine/include/f1c100s/reg-ccu.h machine/include/io.h :

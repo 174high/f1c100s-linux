@@ -1,0 +1,12 @@
+build/driver/pwm-f1c100s.o: driver/pwm-f1c100s.c \
+ driver/include/gpio-f1c100s.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h \
+ machine/include/core_types.h driver/include/pwm-f1c100s.h \
+ machine/include/io.h
+driver/pwm-f1c100s.c :
+ driver/include/gpio-f1c100s.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /home/johnny/licheepi/u-boot-rampup/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint-gcc.h :
+ machine/include/core_types.h driver/include/pwm-f1c100s.h :
+ machine/include/io.h :
